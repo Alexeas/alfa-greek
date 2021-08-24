@@ -32,6 +32,9 @@
     .margin-12{
         margin-bottom: 12px;
     }
+    .margin-0{
+        margin: 0;
+    }
     .selected-text{
         color: rgb(220,53,69);
     }
@@ -90,13 +93,13 @@
         border-color: black;
         border-width: 3px 0 3px 0;
         border-radius: 20px;
-        margin: 36px 0;
+        margin: 24px 0;
     }
     .p-table{
         padding-bottom: 2px;
         margin: 0;
     }
-    .row{
+    .all-body{
         background: url("../images/flag.jpg") no-repeat center;
         background-size: cover;
         background-attachment: fixed;
@@ -144,7 +147,7 @@
     .hr-text-big{
         color: green;
         width: 100%;
-        margin: 48px 0;
+        margin: 24px 0;
         padding: 0;
         height: 2px;
         border-top: 2px solid red;
@@ -256,13 +259,16 @@
     .carousel-control-next-icon{
         opacity: 1;
     }
-
+    .navbar-nav{
+        display: block;
+    }
 /*grammar*/
     .grammar-list a{
         color: #131313;
     }
     .grammar-list{
         position: relative;
+        margin-bottom: 12px;
     }
     .border-secondary > .list-group-item{
         margin-left: 24px;
@@ -349,6 +355,7 @@
     .comments-section{
         margin: 0;
         padding: 0;
+
     }
     .comments-div{
         padding: 0 12px;
@@ -437,7 +444,10 @@
     .mar-top {
      margin-top: 15px;
     }
-
+    .namearea{
+        width: auto;
+        margin: 12px 0;
+    }
 
 
     .footer {
@@ -465,19 +475,31 @@
         .hr-hidden-menu{
             visibility: visible;
             width: 100%;
-            border: 2px solid black;
+            border: 2px solid white;
             margin-bottom: 0;
             margin-top: 12px;
             color: white;
         }
-        .navbarleft-vision {
-            display: none;
+        .navbarleft {
+            margin: 12px;
+            margin-right: 12px;
+            margin-bottom: 0;
+            width: auto;
         }
         .all-body {
             padding: 0;
             margin: 0;
+            background: url("../images/flag.jpg") no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
+            overflow: hidden;
+            display: block;
         }
         .boxtext {
             width: 100%;
         }
+        .active{
+            display: none;
+        }
+
      }

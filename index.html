@@ -2,223 +2,132 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Greek</title>
   <link rel="shortcut icon" href="images/title.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body class="body">
-    <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient container-fluid all-menu">
-            <div class="container">
-                    <div class="col-2 logo">
-                        <a class="navbar-brand" href="index.html"><i class="alfa">α</i> Greek</a>
-                    </div>
-                    <button class="navbar-toggler btn-outline-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-            </div>
-            <hr class="hr-hidden-menu">
-            <div class="container-fluid container-form">
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
-                <button class="btn btn-outline-success text-light" type="submit">Найти</button>
-            </form>
-            </div>
-        </nav>
+    <header class="header" id="body">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient container-fluid all-menu">
+        <div class="container">
+                <div class="col-2 logo">
+                    <a class="navbar-brand" href="index.html"><i class="alfa">α</i> Greek</a>
+                </div>
+                <button class="navbar-toggler btn-outline-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+        </div>
+        <hr class="hr-hidden-menu">
+        <div class="container-fluid container-form">
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+            <button class="btn btn-outline-success text-light" id="menu-burger__header" type="submit">Найти</button>
+        </form>
+        </div>
+    </nav>
 
 
-        </header>
-        <div class="row container-fluid all-body">
-         <nav class="collapse navbar-collapse navbar navbar-dark bg-dark col-2 navbarleft" id="navbarSupportedContent">
-          <ul class="navbar-nav border border-success">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Фонетика
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Звуки</a></li>
-                <li><a class="dropdown-item" href="#">Слоги</a></li>
-                <li><a class="dropdown-item" href="#">Алфавит</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Лексика
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Темы</a></li>
-                <li><a class="dropdown-item" href="html/grammar/grammar.html">Части речи</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Грамматика
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="html/grammar/grammar.html">Части речи</a></li>
-                <li><a class="dropdown-item" href="#">Синтаксис</a></li>
-                <li><a class="dropdown-item" href="#">Пунктуация</a></li>
-              </ul>
-            </li>
-            <hr class="hr-menu">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Библиотека
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Тексты</a></li>
-                <li><a class="dropdown-item" href="#">Рецепты</a></li>
-                <li><a class="dropdown-item" href="#">Диалоги</a></li>
-                <li><a class="dropdown-item" href="#">Книги</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Песни
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Rock</a></li>
-                <li><a class="dropdown-item" href="#">Pop</a></li>
-                <li><a class="dropdown-item" href="#">Folk</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button">
-                Статьи
-              </a>
-            </li>
-            <hr class="hr-menu">
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button">
-                Культура
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                География
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="generalgeography.html">Общее</a></li>
-                <li><a class="dropdown-item" href="administrativedivisions.html">Адм. единицы</a></li>
-                <li><a class="dropdown-item" href="naturalobjects.html">Прир. объекты</a></li>
-                <li><a class="dropdown-item" href="attractions.html">Достопримечательности</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button">
-                История
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button">
-                Мифология
-              </a>
-            </li>
-            <hr class="hr-menu">
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button">
-                Древнегреческий
-              </a>
-            </li>
+    </header>
+    <div class="container-fluid all-body navbar-expand-lg">
+    <div class="row container-fluid all-body">
+     <nav class="collapse navbar-collapse navbar navbar-dark bg-dark col-lg-2 navbarleft" id="navbarSupportedContent">
+      <ul class="navbar-nav border border-success">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Фонетика
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Звуки</a></li>
+            <li><a class="dropdown-item" href="#">Слоги</a></li>
+            <li><a class="dropdown-item" href="#">Алфавит</a></li>
           </ul>
-        </nav>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Лексика
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Темы</a></li>
+            <li><a class="dropdown-item" href="#">Части речи</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Грамматика
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="html/grammar/grammar.html">Части речи</a></li>
+            <li><a class="dropdown-item" href="#">Синтаксис</a></li>
+            <li><a class="dropdown-item" href="#">Пунктуация</a></li>
+          </ul>
+        </li>
+        <hr class="hr-menu">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Библиотека
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Тексты</a></li>
+            <li><a class="dropdown-item" href="#">Рецепты</a></li>
+            <li><a class="dropdown-item" href="#">Диалоги</a></li>
+            <li><a class="dropdown-item" href="#">Книги</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Песни
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Rock</a></li>
+            <li><a class="dropdown-item" href="#">Pop</a></li>
+            <li><a class="dropdown-item" href="#">Folk</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button">
+            Статьи
+          </a>
+        </li>
+        <hr class="hr-menu">
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button">
+            Культура
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            География
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="generalgeography.html">Общее</a></li>
+            <li><a class="dropdown-item" href="administrativedivisions.html">Адм. единицы</a></li>
+            <li><a class="dropdown-item" href="naturalobjects.html">Прир. объекты</a></li>
+            <li><a class="dropdown-item" href="attractions.html">Достопримечательности</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button">
+            История
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button">
+            Мифология
+          </a>
+        </li>
+        <hr class="hr-menu">
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button">
+            Древнегреческий
+          </a>
+        </li>
+      </ul>
+    </nav>
 
-        <nav class="navbar navbar-dark bg-dark col-2 navbarleft navbarleft-vision">
-         <ul class="navbar-nav border border-success">
-           <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Фонетика
-             </a>
-             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-               <li><a class="dropdown-item" href="#">Звуки</a></li>
-               <li><a class="dropdown-item" href="#">Слоги</a></li>
-               <li><a class="dropdown-item" href="#">Алфавит</a></li>
-             </ul>
-           </li>
-           <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Лексика
-             </a>
-             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-               <li><a class="dropdown-item" href="#">Темы</a></li>
-               <li><a class="dropdown-item" href="html/grammar/grammar.html">Части речи</a></li>
-             </ul>
-           </li>
-           <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Грамматика
-             </a>
-             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-               <li><a class="dropdown-item" href="html/grammar/grammar.html">Части речи</a></li>
-               <li><a class="dropdown-item" href="#">Синтаксис</a></li>
-               <li><a class="dropdown-item" href="#">Пунктуация</a></li>
-             </ul>
-           </li>
-           <hr class="hr-menu">
-           <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Библиотека
-             </a>
-             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-               <li><a class="dropdown-item" href="#">Тексты</a></li>
-               <li><a class="dropdown-item" href="#">Рецепты</a></li>
-               <li><a class="dropdown-item" href="#">Диалоги</a></li>
-               <li><a class="dropdown-item" href="#">Книги</a></li>
-             </ul>
-           </li>
-           <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Песни
-             </a>
-             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-               <li><a class="dropdown-item" href="#">Rock</a></li>
-               <li><a class="dropdown-item" href="#">Pop</a></li>
-               <li><a class="dropdown-item" href="#">Folk</a></li>
-             </ul>
-           </li>
-           <li class="nav-item dropdown">
-             <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button">
-               Статьи
-             </a>
-           </li>
-           <hr class="hr-menu"></hr>
-           <li class="nav-item dropdown">
-             <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button">
-               Культура
-             </a>
-           </li>
-           <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               География
-             </a>
-             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-               <li><a class="dropdown-item" href="generalgeography.html">Общее</a></li>
-               <li><a class="dropdown-item" href="administrativedivisions.html">Адм. единицы</a></li>
-               <li><a class="dropdown-item" href="naturalobjects.html">Прир. объекты</a></li>
-               <li><a class="dropdown-item" href="attractions.html">Достопримечательности</a></li>
-             </ul>
-           </li>
-           <li class="nav-item dropdown">
-             <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button">
-               История
-             </a>
-           </li>
-           <li class="nav-item dropdown">
-             <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button">
-               Мифология
-             </a>
-           </li>
-       <hr class="hr-menu"></hr>
-           <li class="nav-item dropdown">
-             <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button">
-               Древнегреческий
-             </a>
-           </li>
-         </ul>
-        </nav>
-        <div class="col-10 boxtext">
+    <div class="col-lg-10 col-sm-12 boxtext">
             <nav aria-label="breadcrumb fixed-top bread-nav">
                 <ol class="breadcrumb bg-dark bread">
                     <li class="breadcrumb-item active text-white" aria-current="page"><i class="alfa">α</i> Greek</li>
@@ -240,38 +149,37 @@
                 </div>
             </div>
 
-
+</div>
     </div>
     </div>
 
     <section class="container-fluid comments-section">
-    <div class="row comments-div">
+        <div class="row comments-div">
+            <div class="col-md-12">
+                <div class="panel">
+                     <form class="panel-body" required name="mainForm">
 
-    <div class="col-md-12">
-    <div class="panel">
-     <div class="panel-body">
-     <textarea class="form-control" rows="2" placeholder="Добавьте Ваш комментарий"></textarea>
-     <div class="clearfix">
-     <button class="btn btn-outline-success text-light pull-right" type="submit"><i class="fa fa-pencil fa-fw"></i>Добавить</button>
-     <a class="btn btn-trans btn-icon fa fa-video-camera add-tooltip" href="#"></a>
-     <a class="btn btn-trans btn-icon fa fa-camera add-tooltip" href="#"></a>
-     <a class="btn btn-trans btn-icon fa fa-file add-tooltip" href="#"></a>
-     </div>
-     </div>
-    </div>
-
+                        <textarea class="form-control" rows="2" placeholder="Добавьте Ваш комментарий*" onkeyup="changeButtonStatus()" onchange="changeButtonStatus()" name="subject" id="comment-body"></textarea>
+                        <input class="form-control namearea" placeholder="Ваше имя*" id="comment-name" onkeyup="changeButtonStatus()" onchange="changeButtonStatus()" name="name"></input>
+                        <button class="btn btn-outline-success text-light pull-right" type="submit" value="Submit" id="comment-add" name="formSend"><i class="fa fa-pencil fa-fw"></i>Добавить</button>
+                        <div class="media-block" id="comment-field">
+                        </div>
+                     </form>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
-
-</div><!-- /.row -->
-</section><!-- /.container -->
-    </body>
-        <footer class="footer bg-dark text-white">
-            <div class="copyright">
-            <span>
-                Copyright 2021 &copy; All rights reserved
-            </span>
+</body>
+<footer class="footer bg-dark text-white">
+    <div class="copyright">
+    <span>
+        Copyright 2021 &copy; All rights reserved
+    </span>
+</div>
         </footer>
         <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="../../js/comments.js"></script>
     </body>
     </html>
