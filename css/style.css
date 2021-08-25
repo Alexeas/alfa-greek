@@ -488,12 +488,14 @@
             margin-bottom: 0;
             width: auto;
         }
-        .all-body {
-            padding: 0;
-            margin: 0;
+        .cover-body{
             background: url("../images/flag.jpg") no-repeat center;
             background-size: cover;
             background-attachment: fixed;
+        }
+        .all-body {
+            padding: 0;
+            margin: 0;
             overflow: hidden;
             display: block;
         }
