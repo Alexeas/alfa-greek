@@ -99,7 +99,7 @@
         padding-bottom: 2px;
         margin: 0;
     }
-    .all-body{
+    .cover-body{
         background: url("../images/flag.jpg") no-repeat center;
         background-size: cover;
         background-attachment: fixed;
@@ -111,7 +111,6 @@
     .bread{
         margin-bottom: 11px;
         justify-content: center;
-        padding-left: 12px;
     }
     .row {
         --bs-gutter-x: 0;
@@ -466,6 +465,9 @@
             justify-content: center;
             align-items: center;
         }
+        .t-small li a{
+            font-size: 14px;
+        }
         .container-form{
             margin-top: 12px;
             justify-content: center;
@@ -497,9 +499,6 @@
         }
         .boxtext {
             width: 100%;
-        }
-        .active{
-            display: none;
         }
 
      }
