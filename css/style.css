@@ -29,6 +29,15 @@
     a:hover{
         color: grey;
     }
+    .table{
+        border-color: #b8ccdf;
+    }
+    caption {
+       caption-side: top;
+       padding: 6px 0;
+       font-size: 14px;
+       text-indent: 12px;
+    }
     .margin-12{
         margin-bottom: 12px;
     }
@@ -283,6 +292,7 @@
         position: absolute;
         bottom: 0;
         width: 100%;
+        text-align: center;
     }
     .card-body h3{
         color:white;
@@ -299,6 +309,9 @@
     }
     .navbar-nav{
         display: block;
+    }
+    .carousel-indicators{
+        margin-bottom: 0.7rem;
     }
 /*grammar*/
     .container-grammar-list{
