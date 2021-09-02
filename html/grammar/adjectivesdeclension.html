@@ -851,9 +851,13 @@
             Copyright 2021 &copy; All rights reserved
         </span>
     </div>
-    <div id="cookie_notification">
+<?php if (empty($_COOKIE['cookie_block'])): ?>
+    <div class="cookie_block">
         <p>Для улучшения работы сайта и его взаимодействия с пользователями мы используем файлы cookie. Продолжая работу с сайтом, Вы разрешаете использование cookie-файлов. Вы всегда можете отключить файлы cookie в настройках Вашего браузера.</p>
-        <button class="btn btn-outline-success text-light button cookie_accept">Принять</button>
+        <div>
+           <a class="btn btn-outline-success text-light cookie_btn" id="cookie_close" href="#close">Согласиться</a>
+        </div>
     </div>
+<?php endif; ?>
         </footer>
     </html>
