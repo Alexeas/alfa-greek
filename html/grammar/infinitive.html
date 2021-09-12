@@ -355,24 +355,19 @@
 
     </div>
     </div>
-    <section class="container-fluid comments-section">
-        <div class="row comments-div">
-            <div class="col-md-12">
-                <div class="panel">
-                     <form class="panel-body" required name="mainForm">
-
-                        <textarea class="form-control" rows="2" placeholder="Добавьте Ваш комментарий*" onkeyup="changeButtonStatus()" onchange="changeButtonStatus()" name="subject" id="comment-body"></textarea>
-                        <input class="form-control namearea" placeholder="Ваше имя*" id="comment-name" onkeyup="changeButtonStatus()" onchange="changeButtonStatus()" name="name"></input>
-                        <button class="btn btn-outline-success text-light pull-right" type="submit" value="Submit" id="comment-add" name="formSend"><i class="fa fa-pencil fa-fw"></i>Добавить</button>
-                        <div class="media-block" id="comment-field">
-                        </div>
-                     </form>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div id="sigCommentsBlock"></div>
+	<script type="text/javascript">
+		(function(){
+			var host_id = '5584';
+			var script = document.createElement('script');
+			script.type = 'text/javascript';
+			script.async = true;
+			script.src = '//sigcomments.com/chat/?host_id='+host_id;
+			var ss = document.getElementsByTagName('script')[0];
+			ss.parentNode.insertBefore(script, ss);
+		})();
+	</script>
     </div>
-</body>
 <footer class="footer bg-dark text-white">
     <div class="copyright">
     <span>
