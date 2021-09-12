@@ -572,12 +572,6 @@
     display: none;
 }
 
-#sigCommentsBlock{
-    margin: 12px;
-    margin-top: 0;
-    background-color: rgb(33,37,41, 0.95);
-}
-
     .footer {
         min-height: 24px;
         margin: 0;
