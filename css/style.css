@@ -166,6 +166,7 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+
     }
     .collapse{
         justify-content: space-between;
