@@ -611,6 +611,9 @@
       }
     #cookie_block.show{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
 
     @media (max-width: 991.98px) {
