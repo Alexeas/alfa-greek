@@ -584,7 +584,7 @@
     }
 
     #cookie_block{
-     /* display: none;*/
+      display: none;
       justify-content: space-between;
       align-items: flex-end;
       position: fixed;
