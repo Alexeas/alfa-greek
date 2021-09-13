@@ -584,7 +584,7 @@
     }
 
     #cookie_block{
-      display: none;
+     /* display: none;*/
       justify-content: space-between;
       align-items: flex-end;
       position: fixed;
@@ -603,9 +603,11 @@
       font-size: 0.8rem;
       text-align: center;
       color: $color_text;
+      text-indent: 0;
     }
-    .cookie_btn{
+    .cookie_accept{
         margin-top: 12px;
+        color: white;
       }
     #cookie_block.show{
     display: flex;

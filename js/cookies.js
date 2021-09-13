@@ -1,7 +1,7 @@
 function checkCookies(){
     let cookieDate = localStorage.getItem('cookieDate');
     let cookieNotification = document.getElementById('cookie_block');
-    let cookieBtn = cookieNotification.querySelector('.cookie_btn');
+    let cookieBtn = cookieNotification.querySelector('.cookie_accept');
 
     // Если записи про кукисы нет или она просрочена на 1 год, то показываем информацию про кукисы
     if( !cookieDate || (+cookieDate + 31536000000) < Date.now() ){
