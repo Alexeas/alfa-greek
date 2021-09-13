@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Greek</title>
+  <title>Лексика</title>
   <link rel="shortcut icon" href="../../images/title.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="../../css/style.css">
@@ -25,10 +25,12 @@
         </div>
         <hr class="hr-hidden-menu">
         <div class="container-fluid container-form">
-        <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
-            <button class="btn btn-outline-success text-light" id="menu-burger__header" type="submit">Найти</button>
-        </form>
+            <script src="../../js/search.js"></script>
+            <form method="POST" class="d-flex form-search" name="finding">
+                <input class="form-control me-2" id="mySearch" type="text" name="sub" size="20" placeholder="Поиск" aria-label="Search">
+            </form>
+            <button class="btn btn-outline-success text-light" id="menu-burger__header" type="button" value="Найти" onClick="dolt();">Найти
+            </button>
         </div>
     </nav>
 

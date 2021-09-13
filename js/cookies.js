@@ -1,7 +1,3 @@
-if (navigator.cookieEnabled === false){
-	alert("Рекомендуем включить поддержку файлов Cookies!");
-}
-
 function checkCookies(){
     let cookieDate = localStorage.getItem('cookieDate');
     let cookieNotification = document.getElementById('cookie_block');

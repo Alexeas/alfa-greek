@@ -43,10 +43,12 @@
         </div>
         <hr class="hr-hidden-menu">
         <div class="container-fluid container-form">
-        <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
-            <button class="btn btn-outline-success text-light" id="menu-burger__header" type="submit">Найти</button>
-        </form>
+            <script src="../../js/search.js"></script>
+            <form method="POST" class="d-flex form-search" name="finding">
+                <input class="form-control me-2" id="mySearch" type="text" name="sub" size="20" placeholder="Поиск" aria-label="Search">
+            </form>
+            <button class="btn btn-outline-success text-light" id="menu-burger__header" type="button" value="Найти" onClick="dolt();">Найти
+            </button>
         </div>
     </nav>
 
