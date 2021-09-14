@@ -97,7 +97,7 @@ function dolt() {
     MsgBox = window.open('', 'msgWindow', stats);
     MsgBox.opener      = window;
     MsgBox.opener.name = 'opener';
-    MsgBox.document.write('<!DOCTYPE html><html><meta name="viewport" content="width=device-width, initial-scale=1"><head><title>Результат поиска слова: ' + Item + '</title></head><body>');
+    MsgBox.document.write('<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"><title>Результат поиска слова: ' + Item + '</title></head><body>');
 
     if (document.finding.sub.value == '') {
         MsgBox.document.write('<h5><font face="Arial">Список всех ссылок:<hr></h5></font>');
