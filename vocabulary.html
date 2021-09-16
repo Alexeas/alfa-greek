@@ -3,13 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="true">
   <title>Лексика</title>
   <link rel="shortcut icon" href="images/title.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="keywords" content="Греческий язык, Новогреческий, Лексика, Греческие слова, Слова на греческом">
+  <meta name="description" content="Лексика греческого языка.">
   <script ENGINE="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script type="text/javascript" src="js/top.js"></script>
-</head>
+   <script type="text/javascript" src="js/cards.js"></script>
+  <!-- Yandex.Metrika counter -->
+ <script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(84790579, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/84790579" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+ </head>
 <body class="body">
     <a id="toTop" title="Наверх" href="#">&#10148;</a>
     <header class="header">
@@ -98,154 +117,129 @@
                 <li class="breadcrumb-item active" aria-current="page">Лексика</li>
             </ol>
         </nav>
+
         <div class="container-fluid boxtext-content text-dark bg-gradient-light">
-            <h3 class="text-center">Слова по частям речи</h3>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="card">
-                  <img class="carousel-image" src="../../images/rivers/ioniansea.jpg" alt="...">
-                  <div class="card-body">
-                      <a href="#"><h3>Существительные</h3></a>
-                      <br>
-                  </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card">
-                    <img class="carousel-image" src="../../images/rivers/mediterraneansea.jpg" alt="...">
-                    <div class="card-body">
-                        <a href="#"><h3>Прилагательные</h3></a>
-                        <br>
+            <h1 class="text-center"><p>Слова по частям речи</p></h1>
+
+            <div class="card-all">
+                <div class="header-card"><h4 class="open-card" id="open-card">Существительные</h4></div>
+                <div class="slider-card hidden" id="slider-card">
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/anatomy.jpg" alt="anatomy"></a>
+                        <a href="#"><h5 class="flex-card-text">Анатомия</h5></a>
                     </div>
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/city.jpg" alt="city"></a>
+                        <a href="#"><h5 class="flex-card-text">Город</h5></a>
                     </div>
-                </div>
-                <div class="carousel-item">
-                      <div class="card">
-                      <img class="carousel-image" src="../../images/rivers/aegeansea.jpg" alt="...">
-                      <div class="card-body">
-                          <a href="#"><h3>Глаголы</h3></a>
-                          <br>
-                      </div>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                        <div class="card">
-                        <img class="carousel-image" src="../../images/rivers/aegeansea.jpg" alt="...">
-                        <div class="card-body">
-                            <a href="#"><h3>Наречия</h3></a>
-                            <br>
-                        </div>
-                        </div>
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/room.jpg" alt="room"></a>
+                        <a href="#"><h5 class="flex-card-text">Интерьер</h5></a>
+                    </div>
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/flora.jpg" alt="flora"></a>
+                        <a href="#"><h5 class="flex-card-text">Флора</h5></a>
+                    </div>
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/fauna.jpg" alt="fauna"></a>
+                        <a href="#"><h5 class="flex-card-text">Фауна</h5></a>
+                    </div>
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/family.jpg" alt="family"></a>
+                        <a href="#"><h5 class="flex-card-text">Семья</h5></a>
+                    </div>
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/tools.jpg" alt="profesion"></a>
+                        <a href="#"><h5 class="flex-card-text">Профессии</h5></a>
                     </div>
                 </div>
-              <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Предыдущий</span>
-              </button>
-              <button class="carousel-control-next bg-dark" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Следующий</span>
-              </button>
+
+                <div class="header-card"><h4 class="open-card" id="open-card_1">Прилагательные</h4></div>
+                <div class="slider-card hidden" id="slider-card_1">
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/chalkboard_adjectives_is_is_es.jpg" alt="adjectives"></a>
+                        <a href="#"><h5 class="flex-card-text">Окончания -ής, -ής, -ές</h5></a>
+                    </div>
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/chalkboard_adjectives_is_ia_i.jpg" alt="adjectives"></a>
+                        <a href="#"><h5 class="flex-card-text">Окончания -ύς, -ιά, -ύ</h5></a>
+                    </div>
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/chalkboard_adjectives_is_a_iko.jpg" alt="adjectives"></a>
+                        <a href="#"><h5 class="flex-card-text">Окончания -ης, -α (-ια), -ικο</h5></a>
+                    </div>
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/chalkboard_adjectives_os_i_o.jpg" alt="adjectives"></a>
+                        <a href="#"><h5 class="flex-card-text">Окончания -ος, -η, -ο</h5></a>
+                    </div>
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/chalkboard_adjectives_ns_ia_i.jpg" alt="adjectives"></a>
+                        <a href="#"><h5 class="flex-card-text">Окончания -ης, -ια, -ι</h5></a>
+                    </div>
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/chalkboard_adjectives_os_a_o.jpg" alt="adjectives"></a>
+                        <a href="#"><h5 class="flex-card-text">Окончания -ος, -α, -ο</h5></a>
+                    </div>
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/chalkboard_adjectives_antonims.jpg" alt="adjectives"></a>
+                        <a href="#"><h5 class="flex-card-text">Антонимы</h5></a>
+                    </div>
+                </div>
+                <div class="header-card"><h4 class="open-card" id="open-card_2">Глаголы</h4></div>
+                <div class="slider-card hidden" id="slider-card_2">
+                    <div class="flex-card-image">
+                        <a href="vocabulary_verbs_top.html"><img src="images/vocabulary/chalkboard_verbs_top.jpg" alt="verbs"></a>
+                        <a href="vocabulary_verbs_top.html"><h5 class="flex-card-text">Топ-250</h5></a>
+                    </div>
+                    <div class="flex-card-image">
+                        <a href="vocabulary_verbs_passive.html"><img src="images/vocabulary/chalkboard_verbs_passive.jpg" alt="verbs"></a>
+                        <a href="vocabulary_verbs_passive.html"><h5 class="flex-card-text">Отложительные (Пассивные)</h5></a>
+                    </div>
+                </div>
+                <div class="header-card"><h4 class="open-card" id="open-card_3">Наречия</h4></div>
+                <div class="slider-card hidden" id="slider-card_3">
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/chalkboard_adverbs_top.jpg" alt="adverbs"></a>
+                        <a href="#"><h5 class="flex-card-text">Топ-100</h5></a>
+                    </div>
+                </div>
             </div>
+
             <hr class="hr-text-big">
-            <h3 class="text-center">Слова по темам</h3>
-            <div id="carouselExampleIndicators_1" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators_1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators_1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators_1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators_1" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators_1" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators_1" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators_1" data-bs-slide-to="6" aria-label="Slide 7"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="card">
-                  <img class="carousel-image" src="../../images/vocabulary/family.jpg" alt="...">
-                  <div class="card-body">
-                      <a href="#"><h3>Семья</h3></a>
-                      <br>
-                  </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card">
-                    <img class="carousel-image" src="../../images/vocabulary/tools.jpg" alt="...">
-                    <div class="card-body">
-                        <a href="#"><h3>Профессии</h3></a>
-                        <br>
+
+            <h1 class="text-center"><p>Разговорник</p></h1>
+
+            <div class="card-all">
+                <div class="header-card"><h4 class="open-card" id="open-card_4">Фразы</h4></div>
+                <div class="slider-card hidden" id="slider-card_4">
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/airport.jpg" alt="airport"></a>
+                        <a href="#"><h5 class="flex-card-text">Аэропорт</h5></a>
                     </div>
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/supermarket.jpg" alt="supermarket"></a>
+                        <a href="#"><h5 class="flex-card-text">Магазин</h5></a>
+                    </div>
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/hands.jpg" alt="hello"></a>
+                        <a href="#"><h5 class="flex-card-text">Приветствия</h5></a>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="card">
-                    <img class="carousel-image" src="../../images/vocabulary/city.jpg" alt="...">
-                    <div class="card-body">
-                        <a href="#"><h3>Город</h3></a>
-                        <br>
-                    </div>
+
+                <div class="header-card"><h4 class="open-card" id="open-card_5">Вопросы и Восклицания</h4></div>
+                <div class="slider-card hidden" id="slider-card_5">
+                    <div class="flex-card-image">
+                        <a href="#"><img src="images/vocabulary/chalkboard_adjectives_is_is_es.jpg" alt="anatomy"></a>
+                        <a href="#"><h5 class="flex-card-text">Окончания -ής, -ής, -ές</h5></a>
                     </div>
                 </div>
-                <div class="carousel-item">
-                      <div class="card">
-                      <img class="carousel-image" src="../../images/vocabulary/room.jpg" alt="...">
-                      <div class="card-body">
-                          <a href="#"><h3>Интерьер</h3></a>
-                          <br>
-                      </div>
-                      </div>
-                  </div>
-                <div class="carousel-item">
-                      <div class="card">
-                      <img class="carousel-image" src="../../images/vocabulary/anatomy.jpg" alt="...">
-                      <div class="card-body">
-                          <a href="#"><h3>Анатомия</h3></a>
-                          <br>
-                      </div>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                        <div class="card">
-                        <img class="carousel-image" src="../../images/vocabulary/flora.jpg" alt="...">
-                        <div class="card-body">
-                            <a href="#"><h3>Растения</h3></a>
-                            <br>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                          <div class="card">
-                          <img class="carousel-image" src="../../images/vocabulary/fauna.jpg" alt="...">
-                          <div class="card-body">
-                              <a href="#"><h3>Животные</h3></a>
-                              <br>
-                          </div>
-                          </div>
-                      </div>
-                </div>
-              <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselExampleIndicators_1"  data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Предыдущий</span>
-              </button>
-              <button class="carousel-control-next bg-dark" type="button" data-bs-target="#carouselExampleIndicators_1"  data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Следующий</span>
-              </button>
             </div>
 
-
+<hr class="hr-text-big">
 
         </div>
-
     </div>
+
     </div>
     <div id="sigCommentsBlock"></div>
     <script type="text/javascript">
@@ -265,12 +259,12 @@
     <span>
         Copyright 2021 &copy; All rights reserved
     </span>
-</div>
-<div id="cookie_block">
-    <p>Для улучшения работы сайта и его взаимодействия с пользователями мы используем файлы cookie. Продолжая работу с сайтом, Вы разрешаете использование cookie-файлов. Вы всегда можете отключить файлы cookie в настройках Вашего браузера.</p>
-    <button class="btn btn-outline-success cookie_accept">Принять</button>
-</div>
-        </footer>
+    </div>
+    <div id="cookie_block">
+        <p>Для улучшения работы сайта и его взаимодействия с пользователями мы используем файлы cookie. Продолжая работу с сайтом, Вы разрешаете использование cookie-файлов. Вы всегда можете отключить файлы cookie в настройках Вашего браузера.</p>
+        <button class="btn btn-outline-success cookie_accept">Принять</button>
+    </div>
+</footer>
         <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/cookies.js"></script>
