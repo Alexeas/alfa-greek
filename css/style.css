@@ -642,6 +642,10 @@
 .myMenu li.hide {
     display: none;
 }
+.border-500{
+    overflow: auto;
+    max-height: 500px;
+}
 
     .footer {
         min-height: 24px;
