@@ -8,7 +8,7 @@ $( function() {
 var title       = [];
 var description = [];
 var address     = [];
-var sum         = 40;
+var sum         = 41;
 
 title[1]       = 'Изменение ударения при спряжении существительных. Родительный падеж. Винительный падеж.';
 description[1] = 'Изменение ударения при спряжении существительных в Греческом языке.';
@@ -169,6 +169,10 @@ address[39]     = 'vocabulary_nouns_house.html';
 title[40]       = 'Лексика. Слова по темам. Существительные, человек, люди, окружение, анатомия.';
 description[40] = 'Лексика. Существительные. Человек.';
 address[40]     = 'vocabulary_nouns_human.html';
+
+title[41]       = 'Фонетика греческого языка. Звуки, буквы, алфавит, произношение, транскрипция.';
+description[41] = 'Фонетика греческого языка.';
+address[41]     = 'phonetics.html';
 
 function contains(sub, s) {
     var strlen1 = sub.length;
