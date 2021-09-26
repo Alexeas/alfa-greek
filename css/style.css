@@ -654,6 +654,9 @@
     max-height: 500px;
 }
     /*Music*/
+    .flex-music-text{
+        overflow-x: auto;
+    }
     .music-video{
         max-width: 560px;
         height: 315px;
@@ -691,8 +694,9 @@
     .offer_text{
         color: black;
         font-size: 24px;
-        text-shadow:0 0 0px rgba(0,0,0);
+        text-shadow:0 0 1px rgba(0,0,0);
         transition: 0.5s;
+        text-decoration: bold;
     }
     .offer_text:hover{
         text-shadow:0px 0px 2px #fff;
