@@ -10,6 +10,12 @@
         margin: 0;
         padding: 0;
     }
+    h1{
+        text-shadow: 1px 1px 3px #000;
+    }
+    hr{
+        opacity: 1;
+    }
     a {
         color: white;
         text-decoration: none;
@@ -147,14 +153,14 @@
         font-size: 15px;
     }
     .hr-header{
-        height: 30px;
-        border-style: solid;
-        color: green;
-        border-color: black;
-        border-width: 3px 0 3px 0;
+        border: 5px ridge #212529;
         border-radius: 20px;
+        height: 12px;
+        background: rgb(255 255 255);
+        box-shadow: -1px 2px 5px 1px #212529;
+        opacity: 0.80;
         margin: 24px 0;
-    }
+        }
     .p-table{
         padding-bottom: 2px;
         margin: 0;
@@ -205,14 +211,29 @@
         align-items: flex-start;
         height: 100%;
     }
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgba(255,255,255,.75);
+    }
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: rgba(255,255,255,1);
+    }
     .hr-menu{
         border: 1px solid white;
         color: white;
         width: 100%;
         margin: 12px 0;
+        opacity: 1;
+        border: 0;
+        height: 1px;
+        background: #198754;
+        background-image: -webkit-linear-gradient(left, #212529, #198754, #212529);
+        background-image: -moz-linear-gradient(left, #212529, #198754, #212529);
+        background-image: -ms-linear-gradient(left, #212529, #198754, #212529);
+        background-image: -o-linear-gradient(left, #212529, #198754, #212529);
     }
     .hr-text{
         margin: 24px 0;
+        opacity: 0.5;
     }
     .hr-text-big{
         color: green;
@@ -223,6 +244,7 @@
         border-top: 2px solid red;
         border-bottom: 2px solid #000;
         background: mediumpurple;
+        opacity: 0.5;
     }
     .row{
         padding-left: 12px;
@@ -263,9 +285,8 @@
     }
     .boxtext-content{
         min-height: 94.2%;
-        padding: 12px;
+        padding: 0 12px;
         background-color: #fffff0;
-        border: 2px solid #5cb85c;
         opacity: 0.95;
         border-radius: 5px;
         overflow: hidden;
@@ -667,12 +688,12 @@
         padding: 6px;
     }
     .icon_music img{
-        border: 2px dashed #198754;
         border-radius: 50%;
         width: 48px;
         padding: 6px;
         margin-right: 12px;
         background-color: white;
+        box-shadow: inset 0 0 10px rgba(0,0,0);
     }
 
     /*OFFERS*/
@@ -795,7 +816,6 @@
         .hr-hidden-menu{
             visibility: visible;
             width: 100%;
-            border: 2px solid white;
             margin-bottom: 0;
             margin-top: 12px;
             color: white;
