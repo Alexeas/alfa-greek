@@ -6,6 +6,9 @@
         text-shadow: 2px 2px black;
         margin: 0;
     }
+    .navbar>.container-fluid{
+        flex-wrap: nowrap;
+    }
     h1,h2,h3,h4,h5,h6{
         margin: 0;
         padding: 0;
