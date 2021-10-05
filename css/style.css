@@ -918,7 +918,7 @@
             justify-content: center;
             width: auto;
             align-items: center;
-            flex-wrap: nowrap;
+            flex-wrap: nowrap!important;
         }
         .hide{
             visibility: hidden;
