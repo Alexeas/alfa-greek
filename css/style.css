@@ -248,7 +248,7 @@
     .hr-text-big{
         width: 100%; /* блок займёт по ширине 100% ширины родительского */
         height: 2px!important; /* высота самого блока */
-        background: linear-gradient(to right, rgb(8 44 27/ 100%), rgb(16 86 53 / 50%), rgb(16 86 53 / 0%), rgb(16 86 53 / 50%), rgb(8 44 27 / 100%));
+        background: linear-gradient(to right, rgb(8, 44, 27, 1), rgb(16, 86, 53, 0.5), rgb(16, 86, 53, 0), rgb(16, 86, 53, 0.5), rgb(8, 44, 27, 1));
         display: block; /* преобразуем его в блочный */
         position: absolute; /* включаем асболютное позиционирование */
         top: 50%; /*отступ будет 0 пикселей от верхней точки блока */
