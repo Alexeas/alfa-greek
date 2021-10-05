@@ -601,7 +601,7 @@
 }
 .header-card{
     text-align: center;
-    background: linear-gradient(90deg, rgba(0, 0, 0), rgb(53 53 53), rgba(0, 0, 0));
+    background-image: linear-gradient(90deg, rgb(44 46 49), rgb(16 16 16), rgb(33 37 41));
     -webkit-transition: .5s ease;
     -moz-transition: .5s ease;
     -o-transition: .5s ease;
@@ -708,6 +708,99 @@
         box-shadow: inset 0 0 10px rgba(0,0,0);
     }
 
+    /*BOOKS*/
+    .books-image{
+        max-width: 600px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .books-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px 0px black;
+    }
+    .flex-book-text{
+        overflow: hidden;
+    }
+    .flex-book-text-translate{
+        overflow: hidden;
+    }
+    .display-none{
+        display: none;
+    }
+    blockquote{
+        margin: 0;
+    }
+    blockquote h3{
+        padding-bottom: 24px;
+        text-align: center;
+    }
+    blockquote p:last-child{
+        margin: 0;
+    }
+    .flex-book-text-translate h3{
+        padding-bottom: 24px;
+        text-align: center;
+    }
+    flex-book-text-translate p:last-child{
+        margin: 0;
+    }
+    .bottons-book-text{
+        text-align: center;
+        margin: -6px 0;
+    }
+    .bottons-book-text a{
+        margin-right: 12px;
+        box-shadow: 0px 2px 5px 0px black;
+    }
+    .bottons-book-text a:active{
+        box-shadow: inset 0px 2px 5px 0px black;
+    }
+    .bottons-book-text button{
+        margin-right: 12px;
+        box-shadow: 0px 2px 5px 0px black;
+        width: 110px;
+    }
+    .bottons-book-text button:active{
+        box-shadow: inset 0px 2px 5px 0px black;
+    }
+    .bottons-book-text button:last-child{
+        margin-right: 0;
+    }
+    .link-hover-success:hover{
+        color: black;
+    }
+    .bottons-book-text a{
+        margin-right: 12px;
+        box-shadow: 0px 2px 5px 0px black;
+        width: 110px;
+    }
+    .link-sites:hover{
+        color: black!important;
+    }
+    .pagination{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 24px 12px;
+        height: auto;
+    }
+    .page-item.active .page-link{
+        background-color: #198754;
+        border-color: #198754;
+    }
+    .page-link{
+        color: black;
+        box-shadow: 0px 0px 3px 0px #198754;
+        background-color: none;
+        border-color: #198754;
+    }
+    .page-link:hover{
+        color: white;
+        background-color: #198754;
+    }
     /*OFFERS*/
     .all_offert{
         background: linear-gradient(45deg, #c9a7b5, #ddddd9, #c9a7b5);
@@ -873,4 +966,21 @@
             background-repeat: no-repeat;
             position: relative;
         }
-     }
+        .bottons-book-text button{
+            margin-right: 6px;
+            width: 80px;
+            font-size: 0.8em;
+        }
+        .bottons-book-text a{
+            margin-right: 6px;
+            width: 80px;
+            font-size: 0.8em;
+        }
+        .page-link{
+            color: black;
+            box-shadow: 0px 0px 3px 0px #198754;
+            background-color: none;
+            border-color: #198754;
+            font-size: 0.8em;
+        }
+}
