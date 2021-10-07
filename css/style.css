@@ -726,6 +726,10 @@
     .flex-book-text{
         overflow: hidden;
     }
+    #p_1, #p_2, #p_3, #p_4, #p_5, #p_6, #p_7, #p_8, #p_9, #p_10, #p_11, #p_12, #p_13, #p_14, #p_15,
+    #p_16, #p_17, #p_18, #p_19, #p_20, #p_21, #p_22, #p_23, #p_24, #p_25, #p_26, #p_27, #p_28, #p_29, #p_30, #p_31{
+        cursor: pointer;
+    }
     .flex-book-text-translate{
         overflow: hidden;
     }
@@ -803,6 +807,13 @@
         color: white;
         background-color: #198754;
     }
+
+     .text-fortranlation p {
+         cursor: pointer;
+     }
+     .text-fortranlation h3 {
+         cursor: pointer;
+     }
     /*OFFERS*/
     .all_offert{
         background: linear-gradient(45deg, #c9a7b5, #ddddd9, #c9a7b5);
