@@ -48,18 +48,21 @@ for (var i = 0 ; (i < 14) && (i < question_array.length) ; i++) {
     document.getElementById('question_text').innerHTML = question_array[0] + ". Ваш счёт: " + score;
 
 function crete() {
-    if (question_array[0] == question_crete && question_array[0] !== undefined) {
+    if (question_array.length == 2) {
+        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново." + " Ваш счёт: " + score;
+        audio_winner.play();
+        StartStop();
+        flag_crete = false;
+        document.getElementById('image_map_13').classList.remove("vis_0");
+        score += 50;
+    }
+    else if (question_array[0] == question_crete && question_array[0] !== undefined) {
         flag_crete = false;
         document.getElementById('image_map_13').classList.remove("vis_0");
         question_array.shift();
         score += 50;
         document.getElementById('question_text').innerHTML = "Прекрасно! " + question_array[0] + ". Ваш счёт: " + score;
         audio_great.play();
-    }
-    else if (question_array[0] == "Вы Выиграли. Поздравляем") {
-        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново...";
-        audio_winner.play();
-        StartStop();
     }
     else {
         score -= 50;
@@ -68,18 +71,21 @@ function crete() {
     }
 };
 function attica() {
-    if (question_array[0] == question_attica && question_array[0] !== undefined) {
+    if (question_array.length == 2) {
+        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново." + " Ваш счёт: " + score;
+        audio_winner.play();
+        StartStop();
+        flag_attica = false;
+        document.getElementById('image_map_8').classList.remove("vis_0");
+        score += 50;
+    }
+    else if (question_array[0] == question_attica && question_array[0] !== undefined) {
         flag_attica = false;
         document.getElementById('image_map_8').classList.remove("vis_0");
         question_array.shift();
         score += 50;
         document.getElementById('question_text').innerHTML = "Отлично! " + question_array[0] + ". Ваш счёт: " + score;
         audio_great.play();
-    }
-    else if (question_array[0] == "Вы Выиграли. Поздравляем") {
-        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново...";
-        audio_winner.play();
-        StartStop();
     }
     else {
         score -= 50;
@@ -88,18 +94,21 @@ function attica() {
     }
 };
 function aegean_south_islands() {
-    if (question_array[0] == question_aegean_south_islands && question_array[0] !== undefined) {
+    if (question_array.length == 2) {
+        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново." + " Ваш счёт: " + score;
+        audio_winner.play();
+        StartStop();
+        flag_aegean_south_islands = false;
+        document.getElementById('image_map_3').classList.remove("vis_0");
+        score += 50;
+    }
+    else if (question_array[0] == question_aegean_south_islands && question_array[0] !== undefined) {
         flag_aegean_south_islands = false;
         document.getElementById('image_map_3').classList.remove("vis_0");
         question_array.shift();
         score += 50;
         document.getElementById('question_text').innerHTML = "Прекрасно! " + question_array[0] + ". Ваш счёт: " + score;
         audio_great.play();
-    }
-    else if (question_array[0] == "Вы Выиграли. Поздравляем") {
-        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново...";
-        audio_winner.play();
-        StartStop();
     }
     else {
         score -= 50;
@@ -108,18 +117,21 @@ function aegean_south_islands() {
     }
 };
 function aegean_nord_islands() {
-    if (question_array[0] == question_aegean_nord_islands && question_array[0] !== undefined) {
+    if (question_array.length == 2) {
+        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново." + " Ваш счёт: " + score;
+        audio_winner.play();
+        StartStop();
+        flag_aegean_nord_islands = false;
+        document.getElementById('image_map_12').classList.remove("vis_0");
+        score += 50;
+    }
+    else if (question_array[0] == question_aegean_nord_islands && question_array[0] !== undefined) {
         flag_aegean_nord_islands = false;
         document.getElementById('image_map_12').classList.remove("vis_0");
         question_array.shift();
         score += 50;
         document.getElementById('question_text').innerHTML = "Вы сегодня в ударе! " + question_array[0] + ". Ваш счёт: " + score;
         audio_great.play();
-    }
-    else if (question_array[0] == "Вы Выиграли. Поздравляем") {
-        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново...";
-        audio_winner.play();
-        StartStop();
     }
     else {
         score -= 50;
@@ -128,18 +140,21 @@ function aegean_nord_islands() {
     }
 };
 function ams_of_the_holy_mountain() {
-    if (question_array[0] == question_ams_of_the_holy_mountain && question_array[0] !== undefined) {
+    if (question_array.length == 2) {
+        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново." + " Ваш счёт: " + score;
+        audio_winner.play();
+        StartStop();
+        flag_ams_of_the_holy_mountain = false;
+        document.getElementById('image_map_14').classList.remove("vis_0");
+        score += 50;
+    }
+    else if (question_array[0] == question_ams_of_the_holy_mountain && question_array[0] !== undefined) {
         flag_ams_of_the_holy_mountain = false;
         document.getElementById('image_map_14').classList.remove("vis_0");
         question_array.shift();
         score += 50;
         document.getElementById('question_text').innerHTML = "Невероятно! " + question_array[0] + ". Ваш счёт: " + score;
         audio_great.play();
-    }
-    else if (question_array[0] == "Вы Выиграли. Поздравляем") {
-        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново...";
-        audio_winner.play();
-        StartStop();
     }
     else {
         score -= 50;
@@ -148,18 +163,21 @@ function ams_of_the_holy_mountain() {
     }
 };
 function epirus() {
-    if (question_array[0] == question_epirus && question_array[0] !== undefined) {
+    if (question_array.length == 2) {
+        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново." + " Ваш счёт: " + score;
+        audio_winner.play();
+        StartStop();
+        flag_epirus = false;
+        document.getElementById('image_map_10').classList.remove("vis_0");
+        score += 50;
+    }
+    else if (question_array[0] == question_epirus && question_array[0] !== undefined) {
         flag_epirus = false;
         document.getElementById('image_map_10').classList.remove("vis_0");
         question_array.shift();
         score += 50;
         document.getElementById('question_text').innerHTML = "Здорово! " + question_array[0] + ". Ваш счёт: " + score;
         audio_great.play();
-    }
-    else if (question_array[0] == "Вы Выиграли. Поздравляем") {
-        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново...";
-        audio_winner.play();
-        StartStop();
     }
     else {
         score -= 50;
@@ -168,18 +186,21 @@ function epirus() {
     }
 };
 function west_macedonia() {
-    if (question_array[0] == question_west_macedonia && question_array[0] !== undefined) {
+    if (question_array.length == 2) {
+        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново." + " Ваш счёт: " + score;
+        audio_winner.play();
+        StartStop();
+        flag_west_macedonia = false;
+        document.getElementById('image_map_11').classList.remove("vis_0");
+        score += 50;
+    }
+    else if (question_array[0] == question_west_macedonia && question_array[0] !== undefined) {
         flag_west_macedonia = false;
         document.getElementById('image_map_11').classList.remove("vis_0");
         question_array.shift();
         score += 50;
         document.getElementById('question_text').innerHTML = "Прекрасно! " + question_array[0] + ". Ваш счёт: " + score;
         audio_great.play();
-    }
-    else if (question_array[0] == "Вы Выиграли. Поздравляем") {
-        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново...";
-        audio_winner.play();
-        StartStop();
     }
     else {
         score -= 50;
@@ -188,18 +209,21 @@ function west_macedonia() {
     }
 };
 function central_macedonia() {
-    if (question_array[0] == question_central_macedonia && question_array[0] !== undefined) {
+    if (question_array.length == 2) {
+        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново." + " Ваш счёт: " + score;
+        audio_winner.play();
+        StartStop();
+        flag_central_macedonia = false;
+        document.getElementById('image_map_5').classList.remove("vis_0");
+        score += 50;
+    }
+    else if (question_array[0] == question_central_macedonia && question_array[0] !== undefined) {
         flag_central_macedonia = false;
         document.getElementById('image_map_5').classList.remove("vis_0");
         question_array.shift();
         score += 50;
         document.getElementById('question_text').innerHTML = "Прекрасно! " + question_array[0] + ". Ваш счёт: " + score;
         audio_great.play();
-    }
-    else if (question_array[0] == "Вы Выиграли. Поздравляем") {
-        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново...";
-        audio_winner.play();
-        StartStop();
     }
     else {
         score -= 50;
@@ -208,18 +232,21 @@ function central_macedonia() {
     }
 };
 function east_macedonia_and_thrace() {
-    if (question_array[0] == question_east_macedonia_and_thrace && question_array[0] !== undefined) {
+    if (question_array.length == 2) {
+        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново." + " Ваш счёт: " + score;
+        audio_winner.play();
+        StartStop();
+        flag_east_macedonia_and_thrace = false;
+        document.getElementById('image_map_9').classList.remove("vis_0");
+        score += 50;
+    }
+    else if (question_array[0] == question_east_macedonia_and_thrace && question_array[0] !== undefined) {
         flag_east_macedonia_and_thrace = false;
         document.getElementById('image_map_9').classList.remove("vis_0");
         question_array.shift();
         score += 50;
         document.getElementById('question_text').innerHTML = "Отлично! " + question_array[0] + ". Ваш счёт: " + score;
         audio_great.play();
-    }
-    else if (question_array[0] == "Вы Выиграли. Поздравляем") {
-        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново...";
-        audio_winner.play();
-        StartStop();
     }
     else {
         score -= 50;
@@ -228,18 +255,21 @@ function east_macedonia_and_thrace() {
     }
 };
 function ionian_islands() {
-    if (question_array[0] == question_ionian_islands && question_array[0] !== undefined) {
+    if (question_array.length == 2) {
+        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново." + " Ваш счёт: " + score;
+        audio_winner.play();
+        StartStop();
+        flag_ionian_islands = false;
+        document.getElementById('image_map_7').classList.remove("vis_0");
+        score += 50;
+    }
+    else if (question_array[0] == question_ionian_islands && question_array[0] !== undefined) {
         flag_ionian_islands = false;
         document.getElementById('image_map_7').classList.remove("vis_0");
         question_array.shift();
         score += 50;
         document.getElementById('question_text').innerHTML = "Так держать! " + question_array[0] + ". Ваш счёт: " + score;
         audio_great.play();
-    }
-    else if (question_array[0] == "Вы Выиграли. Поздравляем") {
-        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново...";
-        audio_winner.play();
-        StartStop();
     }
     else {
         score -= 50;
@@ -248,18 +278,21 @@ function ionian_islands() {
     }
 };
 function west_greece() {
-    if (question_array[0] == question_west_greece && question_array[0] !== undefined) {
+    if (question_array.length == 2) {
+        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново." + " Ваш счёт: " + score;
+        audio_winner.play();
+        StartStop();
+        flag_west_greece = false;
+        document.getElementById('image_map_4').classList.remove("vis_0");
+        score += 50;
+    }
+    else if (question_array[0] == question_west_greece && question_array[0] !== undefined) {
         flag_west_greece = false;
         document.getElementById('image_map_4').classList.remove("vis_0");
         question_array.shift();
         score += 50;
         document.getElementById('question_text').innerHTML = "Прекрасно! " + question_array[0] + ". Ваш счёт: " + score;
         audio_great.play();
-    }
-    else if (question_array[0] == "Вы Выиграли. Поздравляем") {
-        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново...";
-        audio_winner.play();
-        StartStop();
     }
     else {
         score -= 50;
@@ -268,18 +301,21 @@ function west_greece() {
     }
 };
 function peloponnese() {
-    if (question_array[0] == question_peloponnese && question_array[0] !== undefined) {
+    if (question_array.length == 2) {
+        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново." + " Ваш счёт: " + score;
+        audio_winner.play();
+        StartStop();
+        flag_peloponnese = false;
+        document.getElementById('image_map_6').classList.remove("vis_0");
+        score += 50;
+    }
+    else if (question_array[0] == question_peloponnese && question_array[0] !== undefined) {
         flag_peloponnese = false;
         document.getElementById('image_map_6').classList.remove("vis_0");
         question_array.shift();
         score += 50;
         document.getElementById('question_text').innerHTML = "Отлично! " + question_array[0] + ". Ваш счёт: " + score;
         audio_great.play();
-    }
-    else if (question_array[0] == "Вы Выиграли. Поздравляем") {
-        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново...";
-        audio_winner.play();
-        StartStop();
     }
     else {
         score -= 50;
@@ -288,18 +324,21 @@ function peloponnese() {
     }
 };
 function thessaly() {
-    if (question_array[0] == question_thessaly && question_array[0] !== undefined) {
+    if (question_array.length == 2) {
+        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново." + " Ваш счёт: " + score;
+        audio_winner.play();
+        StartStop();
+        flag_thessaly = false;
+        document.getElementById('image_map_2').classList.remove("vis_0");
+        score += 50;
+    }
+    else if (question_array[0] == question_thessaly && question_array[0] !== undefined) {
         flag_thessaly = false;
         document.getElementById('image_map_2').classList.remove("vis_0");
         question_array.shift();
         score += 50;
         document.getElementById('question_text').innerHTML = "Прекрасно! " + question_array[0] + ". Ваш счёт: " + score;
         audio_great.play();
-    }
-    else if (question_array[0] == "Вы Выиграли. Поздравляем") {
-        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново...";
-        audio_winner.play();
-        StartStop();
     }
     else {
         score -= 50;
@@ -308,18 +347,21 @@ function thessaly() {
     }
 };
 function central_greece() {
-    if (question_array[0] == question_central_greece && question_array[0] !== undefined) {
+    if (question_array.length == 2) {
+        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново." + " Ваш счёт: " + score;
+        audio_winner.play();
+        StartStop();
+        flag_central_greece = false;
+        document.getElementById('image_map').classList.remove("vis_0");
+        score += 50;
+    }
+    else if (question_array[0] == question_central_greece && question_array[0] !== undefined) {
         flag_central_greece = false;
         document.getElementById('image_map').classList.remove("vis_0");
         question_array.shift();
         score += 50;
         document.getElementById('question_text').innerHTML = "Прекрасно! " + question_array[0] + ". Ваш счёт: " + score;
         audio_great.play();
-    }
-    else if (question_array[0] == "Вы Выиграли. Поздравляем") {
-        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново...";
-        audio_winner.play();
-        StartStop();
     }
     else {
         score -= 50;
