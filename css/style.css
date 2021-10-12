@@ -336,12 +336,17 @@
     }
     .carousel-image{
         width: 100%;
+        transition: all 0.5s;
+    }
+    .carousel-image:hover{
+        filter: saturate(200%);
     }
     .card{
         display: block;
+        position: relative;
     }
     .card-body{
-        background-color: rgb(0,0,0, 0.5);
+        background-color: rgb(0,0,0, 0.75);
         position: absolute;
         bottom: 35px;
         width: 100%;
@@ -359,12 +364,6 @@
     }
     .carousel-control-next-icon{
         opacity: 1;
-    }
-    .carousel-control-prev {
-        opacity: 0.3;
-    }
-    .carousel-control-next {
-        opacity: 0.3;
     }
     .navbar-nav{
         display: block;
@@ -590,7 +589,31 @@
 .visible {
     visibility: visible;
 }
-
+/*GAME*/
+.container_maps{
+    position: relative;
+    width: 700px;
+    height: 620px;
+    margin: 0 auto;
+}
+.container_maps img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s;
+}
+map area{
+    cursor: pointer;
+}
+.vis_0{
+    visibility: hidden;
+    transition: all 0.2s;
+}
+#question_text{
+    z-index: 1000000;
+    background-color: white;
+    padding-bottom: 12px;
+}
 /* Стиль навигационных ссылок */
 .myMenu li{
   padding: 12px;
@@ -601,7 +624,6 @@
 /*География*/
 .map_card{
     overflow-x: auto;
-    padding: 0 12px;
     text-align: center;
 }
 .modal{
@@ -621,6 +643,9 @@
 }
 .btn-close-white{
     border: 1px solid #198754;
+}
+.link-pointer{
+    cursor: pointer;
 }
 /*Карточки*/
 .card-all h4{
@@ -755,7 +780,7 @@
         overflow: hidden;
     }
     #p_1, #p_2, #p_3, #p_4, #p_5, #p_6, #p_7, #p_8, #p_9, #p_10, #p_11, #p_12, #p_13, #p_14, #p_15,
-    #p_16, #p_17, #p_18, #p_19, #p_20, #p_21, #p_22, #p_23, #p_24, #p_25, #p_26, #p_27, #p_28, #p_29, #p_30, #p_31{
+    #p_16, #p_17, #p_18, #p_19, #p_20, #p_21, #p_22, #p_23, #p_24, #p_25, #p_26, #p_27, #p_28, #p_29, #p_30, #p_31, #p_32, #p_33, #p_34, #p_35, #p_36, #p_37{
         cursor: pointer;
     }
     .flex-book-text-translate{
@@ -767,14 +792,14 @@
     blockquote{
         margin: 0;
     }
-    blockquote h3{
+    blockquote h3, blockquote h4, blockquote h5{
         padding-bottom: 24px;
         text-align: center;
     }
     blockquote p:last-child{
         margin: 0;
     }
-    .flex-book-text-translate h3{
+    .flex-book-text-translate h3, .flex-book-text-translate h4, .flex-book-text-translate h5{
         padding-bottom: 24px;
         text-align: center;
     }
