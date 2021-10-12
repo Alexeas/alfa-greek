@@ -302,7 +302,7 @@ function west_greece() {
 };
 function peloponnese() {
     if (question_array.length == 2) {
-        document.getElementById('question_text').innerHTML = "Вы Выиграли! Начните заново." + " Ваш счёт: " + score;
+        document.getElementById('question_text').innerHTML = "Вы Выиграли!" + " Ваш счёт: " + score;
         audio_winner.play();
         StartStop();
         flag_peloponnese = false;
