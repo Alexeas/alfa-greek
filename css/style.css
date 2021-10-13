@@ -610,9 +610,29 @@ map area{
     transition: all 0.2s;
 }
 #question_text{
-    z-index: 1000000;
-    background-color: white;
     padding-bottom: 12px;
+}
+.score_title{
+    padding-bottom: 12px;
+}
+#score{
+    background-color: #212529;
+    padding: 3px 6px;
+    border-radius: 5px;
+    color: white;
+}
+.content_game{
+    text-align: center;
+}
+.form_game{
+    padding-bottom: 12px;
+    background-color: none;
+}
+.form_game input{
+    text-align: center;
+    border:0;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px 1px #22282e;
 }
 /* Стиль навигационных ссылок */
 .myMenu li{
