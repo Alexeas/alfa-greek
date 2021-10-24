@@ -1085,4 +1085,10 @@ map area{
             border-color: #198754;
             font-size: 0.8em;
         }
+        #reload_game{
+            width: 100px;
+        }
+        #hint_botton{
+            width: 100px;
+        }
 }
