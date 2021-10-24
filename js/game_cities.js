@@ -188,7 +188,9 @@ let block_button = document.getElementById('hint_botton');
 const flag = [flag_question_alexandroupolis, flag_question_xanthi, flag_question_kavala, flag_question_orestiada, flag_question_komotini, flag_question_drama, flag_question_thessaloniki, flag_question_litohoro, flag_question_sere, flag_question_karie, flag_question_katerini, flag_question_nympheon, flag_question_castoria, flag_question_kozani, flag_question_metsovo, flag_question_janina, flag_question_parga, flag_question_preveza, flag_question_kalambaka, flag_question_larisa,
 flag_question_volos, flag_question_tricala, flag_question_karditsa, flag_question_karystos, flag_question_halkida, flag_question_delphi, flag_question_galaxidi, flag_question_lamia, flag_question_fivi, flag_question_olympia, flag_question_agrinion, flag_question_patri, flag_question_athens, flag_question_pireas, flag_question_dimitsana, flag_question_sparta, flag_question_monemvasia, flag_question_epidaurus, flag_question_korinf, flag_question_nafplion,
 flag_question_kalamata, flag_question_kerkira, flag_question_argostoli, flag_question_mirina, flag_question_mitilini, flag_question_skiros, flag_question_hios, flag_question_ajos_kiritos, flag_question_mikonos, flag_question_ia, flag_question_kos, flag_question_rodos, flag_question_lindos, flag_question_karpatos, flag_question_hania, flag_question_rethymno, flag_question_heraklion, flag_question_agios_nikolaos, flag_question_hora_sfakion];
-const reward_array = ["Прекрасно! ", "Отлично! ", "Так держать! ", "Прекрасно! ", "Отлично! ", "Прекрасно! ", "Невероятно! ", "Прекрасно! ", "Отлично! ", "Правильно! ","Прекрасно! ", "Отлично! ", "Здорово! ", "Правильно! "];
+
+const reward_array = ["Прекрасно! ", "Отлично! ", "Так держать! ", "Прекрасно! ", "Отлично! ", "Прекрасно! ", "Прекрасно! ", "Отлично! ", "Правильно! ","Прекрасно! ", "Отлично! ", "Здорово! ", "Правильно! ", "Прекрасно! ", "Отлично! ", "Прекрасно! ", "Отлично! ", "Прекрасно! ", "Отлично! ","Прекрасно! ", "Отлично! ","Прекрасно! ", "Отлично! ","Прекрасно! ", "Отлично! ","Прекрасно! ", "Отлично! ","Прекрасно! ", "Отлично! ","Прекрасно! ", "Отлично! ",
+"Прекрасно! ", "Отлично! ","Прекрасно! ", "Отлично! ","Прекрасно! ", "Отлично! ","Прекрасно! ", "Отлично! ","Прекрасно! ", "Отлично! ","Шикарно! ", "Отлично! ","Прекрасно! ", "Отлично! ","Прекрасно! ", "Отлично! ","Прекрасно! ", "Отлично! ","Прекрасно! ", "Отлично! ","Прекрасно! ", "Отлично! ","Прекрасно! ", "Отлично! ", "Здорово! ", "Правильно! ", "Невероятно! "];
 let random_reward = Math.floor(Math.random() * reward_array.length);
 
 const hint_array = [hint_question_alexandroupolis, hint_question_xanthi, hint_question_kavala, hint_question_orestiada, hint_question_komotini, hint_question_drama, hint_question_thessaloniki, hint_question_litohoro, hint_question_sere, hint_question_karie, hint_question_katerini, hint_question_nympheon, hint_question_castoria, hint_question_kozani, hint_question_metsovo, hint_question_janina, hint_question_parga, hint_question_preveza, hint_question_kalambaka, hint_question_larisa,
@@ -211,6 +213,10 @@ for (var i = 0 ; (i < 59) && (i < question_array.length) ; i++) {
     var hint = hint_array[r];
     hint_array[r] = hint_array[i];
     hint_array[i] = hint;
+
+    var reward = reward_array[r];
+    reward_array[r] = reward_array[i];
+    reward_array[i] = reward;
 };
 
     document.getElementById('question_text').innerHTML = question_array[0];
@@ -266,8 +272,9 @@ function game_on_click(id, question, t) {
         document.getElementById(id).classList.remove("vis_0");
         question_array.shift();
         hint_array.shift();
+        reward_array.shift();
         score += 50;
-        document.getElementById('question_text').innerHTML = reward_array[random_reward] + question_array[0];
+        document.getElementById('question_text').innerHTML = reward_array[0] + question_array[0];
         document.getElementById('hint_text').innerHTML = hint_array[0];
         document.getElementById('score').innerHTML = score;
     }
