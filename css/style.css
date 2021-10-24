@@ -622,7 +622,7 @@ map area{
 }
 #question_text{
     margin-bottom: 24px;
-    padding: 6px 0;
+    padding: 6px;
 }
 #none_hint{
     position: absolute;
@@ -637,7 +637,7 @@ map area{
     top: 0;
     z-index: 5;
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(180,180,180,0.25) 0%, rgba(135,135,135,0.5) 20%, rgba(129,129,129,0.75) 50%, rgba(135,135,135,0.5) 80%, rgba(180,180,180,0.25) 100%);
+    background: linear-gradient(90deg, rgba(180,180,180,0.35) 0%, rgba(135,135,135,0.5) 20%, rgba(129,129,129,0.75) 50%, rgba(135,135,135,0.5) 80%, rgba(180,180,180,0.35) 100%);
     box-shadow: 0 6px 10px rgba(0,0,0,0.5);
 }
 .score_title{
