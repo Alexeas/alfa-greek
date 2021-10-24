@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="true">
+  <title>Игра. Города Греции.</title>
+  <link rel="shortcut icon" href="images/title.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="keywords" content="Греческий язык, Новогреческий, География Греции, Области Греции, Игра на знание городов и поселений Греции.">
+  <meta name="description" content="Георгафия Греции - игра на знание городов и поселений Греции.">
+  <script ENGINE="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="jquery.imagemapster.js"></script>
+  <script type="text/javascript" src="js/top.js"></script>
+  <!-- Yandex.Metrika counter -->
+ <script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(84790579, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/84790579" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+ </head>
+<body class="body">
+    <a id="toTop" title="Наверх" href="#">&#10148;</a>
+    <header class="header">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient container-fluid all-menu">
+        <div class="container">
+                <div class="col-2 logo">
+                    <a class="navbar-brand" href="index.html"><i class="alfa">α</i> Greek</a>
+                </div>
+                <button class="navbar-toggler btn-outline-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+        </div>
+        <hr class="hr-hidden-menu">
+        <div class="container-fluid container-form">
+            <script type="text/javascript" src="js/search.js"></script>
+            <form method="POST" class="d-flex form-search" name="finding">
+                <input class="form-control me-2" id="mySearch" type="text" name="sub" placeholder="Поиск" aria-label="Search">
+            </form>
+            <button class="btn btn-outline-success text-light" id="menu-burger__header" type="button" value="Найти" onClick="dolt();">Найти
+            </button>
+        </div>
+    </nav>
+
+    </header>
+    <div class="container-fluid all-body navbar-expand-lg cover-body">
+    <div class="row container-fluid all-body">
+        <nav class="collapse navbar-collapse navbar navbar-dark bg-dark col-lg-2 navbarleft" id="navbarSupportedContent">
+         <ul class="navbar-nav border border-success">
+           <li class="nav-item dropdown">
+             <a class="nav-link" href="phonetics.html" id="navbarDarkDropdownMenuLink" role="button">
+               Фонетика
+             </a>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link" href="vocabulary.html" id="navbarDarkDropdownMenuLink" role="button">
+               Лексика
+             </a>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link" href="grammar.html" id="navbarDarkDropdownMenuLink" role="button">
+               Грамматика
+             </a>
+           </li>
+           <hr class="hr-menu">
+           <li class="nav-item dropdown">
+             <a class="nav-link" href="library.html" id="navbarDarkDropdownMenuLink" role="button">
+               Библиотека
+             </a>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link" href="songs.html" id="navbarDarkDropdownMenuLink" role="button">
+               Песни
+             </a>
+           </li>
+           <hr class="hr-menu">
+           <li class="nav-item dropdown">
+             <a class="nav-link" href="geography.html" id="navbarDarkDropdownMenuLink" role="button">
+               География
+             </a>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link" href="history.html" id="navbarDarkDropdownMenuLink" role="button">
+               История
+             </a>
+           </li>
+           <li class="nav-item dropdown">
+             <a class="nav-link" href="mythology.html" id="navbarDarkDropdownMenuLink" role="button">
+               Мифология
+             </a>
+           </li>
+           <hr class="hr-menu">
+           <li class="nav-item dropdown">
+             <a class="nav-link" href="ancientgreek.html" id="navbarDarkDropdownMenuLink" role="button">
+               Древнегреческий
+             </a>
+           </li>
+         </ul>
+       </nav>
+
+    <div class="col-lg-10 col-sm-12 boxtext">
+        <nav aria-label="breadcrumb fixed-top bread-nav">
+            <ol class="breadcrumb bg-dark bread t-small">
+                <li class="breadcrumb-item"><a href="index.html"><i class="alfa">α</i> Greek</a></li>
+                <li class="breadcrumb-item"><a href="geography.html">География</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Игра "Города и поселения"</li>
+            </ol>
+        </nav>
+
+        <div class="container-fluid boxtext-content text-dark bg-gradient-light">
+            <hr class="hr-header" size="3">
+            <h1 class="text-center">Игра: "Города и поселения Греции"</h1>
+            <hr class="hr-header" size="3">
+
+            <div class="content_game">
+            <h3 class="text-center" id="question_text"></h3>
+            <h5 class="text-center score_title">Ваш счёт: <span id="score">0</span></h5>
+            <form class="form_game" name=MyForm><input name=stopwatch size=10 value="00:00:00.00" disabled></form>
+            </div>
+
+            <div class="map_card">
+            <div class="container_maps">
+                <img class="image_map" id="image" src="images/geography/game_map_cities.png" usemap="#map_greece" alt="map_greece">
+                <!--Восточная Македония и Фракия-->
+                <img class="image_map vis_0" id="image_map_1" src="images/geography/city_alexandroupolis.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_2" src="images/geography/city_xanthi.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_3" src="images/geography/city_kavala.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_4" src="images/geography/city_orestiada.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_5" src="images/geography/city_komotini.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_6" src="images/geography/city_drama.png" usemap="#map_greece" alt="map_city">
+                <!--Центральная Македония-->
+                <img class="image_map vis_0" id="image_map_7" src="images/geography/city_thessaloniki.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_8" src="images/geography/city_litohoro.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_9" src="images/geography/city_sere.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_10" src="images/geography/city_karie.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_11" src="images/geography/city_katerini.png" usemap="#map_greece" alt="map_city">
+                <!--Западная Македония-->
+                <img class="image_map vis_0" id="image_map_12" src="images/geography/city_nympheon.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_13" src="images/geography/city_castoria.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_14" src="images/geography/city_kozani.png" usemap="#map_greece" alt="map_city">
+                <!--Эпир-->
+                <img class="image_map vis_0" id="image_map_15" src="images/geography/city_metsovo.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_16" src="images/geography/city_janina.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_17" src="images/geography/city_parga.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_18" src="images/geography/city_preveza.png" usemap="#map_greece" alt="map_city">
+                <!--Фессалия-->
+                <img class="image_map vis_0" id="image_map_19" src="images/geography/city_kalambaka.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_20" src="images/geography/city_larisa.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_21" src="images/geography/city_volos.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_22" src="images/geography/city_tricala.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_23" src="images/geography/city_karditsa.png" usemap="#map_greece" alt="map_city">
+                <!--Центральная Греция-->
+                <img class="image_map vis_0" id="image_map_24" src="images/geography/city_karystos.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_25" src="images/geography/city_halkida.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_26" src="images/geography/city_delphi.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_27" src="images/geography/city_galaxidi.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_28" src="images/geography/city_lamia.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_29" src="images/geography/city_fivi.png" usemap="#map_greece" alt="map_city">
+                <!--Западная Греция-->
+                <img class="image_map vis_0" id="image_map_30" src="images/geography/city_olympia.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_31" src="images/geography/city_agrinion.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_32" src="images/geography/city_patri.png" usemap="#map_greece" alt="map_city">
+                <!--Аттика-->
+                <img class="image_map vis_0" id="image_map_33" src="images/geography/city_athens.png" usemap="#map_greece" alt="map_cities">
+                <img class="image_map vis_0" id="image_map_34" src="images/geography/city_pireas.png" usemap="#map_greece" alt="map_city">
+                <!--Пелопонесс-->
+                <img class="image_map vis_0" id="image_map_35" src="images/geography/city_dimitsana.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_36" src="images/geography/city_sparta.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_37" src="images/geography/city_monemvasia.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_38" src="images/geography/city_epidaurus.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_39" src="images/geography/city_korinf.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_40" src="images/geography/city_nafplion.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_41" src="images/geography/city_kalamata.png" usemap="#map_greece" alt="map_city">
+                <!--Адриатические Острова-->
+                <img class="image_map vis_0" id="image_map_42" src="images/geography/city_kerkira.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_43" src="images/geography/city_argostoli.png" usemap="#map_greece" alt="map_city">
+                <!--Северные Эгейские Острова-->
+                <img class="image_map vis_0" id="image_map_44" src="images/geography/city_mirina.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_45" src="images/geography/city_mitilini.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_46" src="images/geography/city_skiros.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_47" src="images/geography/city_hios.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_48" src="images/geography/city_ajos_kiritos.png" usemap="#map_greece" alt="map_city">
+                <!--Южные Эгейские Острова-->
+                <img class="image_map vis_0" id="image_map_49" src="images/geography/city_mikonos.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_50" src="images/geography/city_ia.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_51" src="images/geography/city_kos.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_52" src="images/geography/city_rodos.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_53" src="images/geography/city_lindos.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_54" src="images/geography/city_karpatos.png" usemap="#map_greece" alt="map_city">
+                <!--Крит-->
+                <img class="image_map vis_0" id="image_map_55" src="images/geography/city_hania.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_56" src="images/geography/city_rethymno.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_57" src="images/geography/city_heraklion.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_58" src="images/geography/city_agios_nikolaos.png" usemap="#map_greece" alt="map_city">
+                <img class="image_map vis_0" id="image_map_59" src="images/geography/city_hora_sfakion.png" usemap="#map_greece" alt="map_city">
+            </div>
+            <map name="map_greece" id="map_greece">
+                <!--Восточная Македония и Фракия-->
+                <area onclick="game_on_click('image_map_1', question_alexandroupolis, 0)" onmouseover='game_on_move(0, "image_map_1"), game_on_moving()' onmouseout='game_on_move(0, "image_map_1")' alt="alexandroupolis" coords="415,89,7" shape="circle">
+                <area onclick="game_on_click('image_map_2', question_xanthi, 1)" onmouseover='game_on_move(1, "image_map_2")' onmouseout='game_on_move(1, "image_map_2")' alt="xanthi" coords="354,71,7" shape="circle">
+                <area onclick="game_on_click('image_map_3', question_kavala, 2)" onmouseover='game_on_move(2, "image_map_3")' onmouseout='game_on_move(2, "image_map_3")' alt="kavala" coords="323,84,7" shape="circle">
+
+                <area onclick="game_on_click('image_map_4', question_orestiada, 3)" alt="orestiada" onmouseover='game_on_move(3, "image_map_4")' onmouseout='game_on_move(3, "image_map_4")' coords="458,43,7" shape="circle">
+                <area onclick="game_on_click('image_map_5', question_komotini, 4)" alt="komotini" onmouseover='game_on_move(4, "image_map_5")' onmouseout='game_on_move(4, "image_map_5")' coords="385,70,7" shape="circle">
+                <area onclick="game_on_click('image_map_6', question_drama, 5)" alt="drama" onmouseover='game_on_move(5, "image_map_6")' onmouseout='game_on_move(5, "image_map_6")' coords="306,68,7" shape="circle">
+                <!--Центральная Македония-->
+                <area onclick="game_on_click('image_map_7', question_thessaloniki, 6)" alt="thessaloniki" onmouseover='game_on_move(6, "image_map_7")' onmouseout='game_on_move(6, "image_map_7")' coords="231,113,7" shape="circle">
+                <area onclick="game_on_click('image_map_8', question_litohoro, 7)" alt="litohoro" onmouseover='game_on_move(7, "image_map_8")' onmouseout='game_on_move(7, "image_map_8")' coords="203,160,7" shape="circle">
+
+                <area onclick="game_on_click('image_map_9', question_sere, 8)" alt="sere" onmouseover='game_on_move(8, "image_map_9")' onmouseout='game_on_move(8, "image_map_9")' coords="264,75,7" shape="circle">
+                <area onclick="game_on_click('image_map_10', question_karie, 9)" alt="karie" onmouseover='game_on_move(9, "image_map_10")' onmouseout='game_on_move(9, "image_map_10")' coords="312,142,7" shape="circle">
+                <area onclick="game_on_click('image_map_11', question_katerini, 10)" alt="katerini" onmouseover='game_on_move(10, "image_map_11")' onmouseout='game_on_move(10, "image_map_11")' coords="202,139,7" shape="circle">
+                <!--Западная Македония-->
+                <area onclick="game_on_click('image_map_12', question_nympheon, 11)" onmouseover='game_on_move(11, "image_map_12")' onmouseout='game_on_move(11, "image_map_12")' alt="nympheon" coords="135,104,7" shape="circle">
+                <area onclick="game_on_click('image_map_13', question_castoria, 12)" onmouseover='game_on_move(12, "image_map_13")' onmouseout='game_on_move(12, "image_map_13")' alt="castoria" coords="131,124,7" shape="circle">
+
+                <area onclick="game_on_click('image_map_14', question_kozani, 13)" alt="kozani" onmouseover='game_on_move(13, "image_map_14")' onmouseout='game_on_move(13, "image_map_14")' coords="158,139,7" shape="circle">
+                <!--Эпир-->
+                <area onclick="game_on_click('image_map_15', question_metsovo, 14)" onmouseover='game_on_move(14, "image_map_15")' onmouseout='game_on_move(14, "image_map_15")' alt="metsovo" coords="113,182,7" shape="circle">
+                <area onclick="game_on_click('image_map_16', question_janina, 15)" onmouseover='game_on_move(15, "image_map_16")' onmouseout='game_on_move(15, "image_map_16")' alt="janina" coords="84,193,7" shape="circle">
+                <area onclick="game_on_click('image_map_17', question_parga, 16)" onmouseover='game_on_move(16, "image_map_17")' onmouseout='game_on_move(16, "image_map_17")' alt="parga" coords="65,217,7" shape="circle">
+                <area onclick="game_on_click('image_map_18', question_preveza, 17)" onmouseover='game_on_move(17, "image_map_18")' onmouseout='game_on_move(17, "image_map_18")' alt="preveza" coords="87,246,7" shape="circle">
+                <!--Фессалия-->
+                <area onclick="game_on_click('image_map_19', question_kalambaka, 18)" onmouseover='game_on_move(18, "image_map_19")' onmouseout='game_on_move(18, "image_map_19")' alt="kalambaka" coords="146,186,7" shape="circle">
+                <area onclick="game_on_click('image_map_20', question_larisa, 19)" onmouseover='game_on_move(19, "image_map_20")' onmouseout='game_on_move(19, "image_map_20")' alt="larisa" coords="203,194,7" shape="circle">
+                <area onclick="game_on_click('image_map_21', question_volos, 20)" onmouseover='game_on_move(20, "image_map_21")' onmouseout='game_on_move(20, "image_map_21")' alt="volos" coords="231,217,7" shape="circle">
+
+                <area onclick="game_on_click('image_map_22', question_tricala, 21)" onmouseover='game_on_move(21, "image_map_22")' onmouseout='game_on_move(21, "image_map_22")' alt="tricala" coords="157,202,7" shape="circle">
+                <area onclick="game_on_click('image_map_23', question_karditsa, 22)" onmouseover='game_on_move(22, "image_map_23")' onmouseout='game_on_move(22, "image_map_23")' alt="karditsa" coords="170,218,7" shape="circle">
+                <!--Центральная Греция-->
+                <area onclick="game_on_click('image_map_24', question_karystos, 23)" onmouseover='game_on_move(23, "image_map_24")' onmouseout='game_on_move(23, "image_map_24")' alt="karystos" coords="324,326,7" shape="circle">
+                <area onclick="game_on_click('image_map_25', question_halkida, 24)" onmouseover='game_on_move(24, "image_map_25")' onmouseout='game_on_move(24, "image_map_25")' alt="halkida" coords="269,290,7" shape="circle">
+                <area onclick="game_on_click('image_map_26', question_delphi, 25)" onmouseover='game_on_move(25, "image_map_26")' onmouseout='game_on_move(25, "image_map_26")' alt="delphi" coords="198,283,7" shape="circle">
+                <area onclick="game_on_click('image_map_27', question_galaxidi, 26)" onmouseover='game_on_move(26, "image_map_27")' onmouseout='game_on_move(26, "image_map_27")' alt="galaxidi" coords="190,298,7" shape="circle">
+
+                <area onclick="game_on_click('image_map_28', question_lamia, 27)" alt="lamia" onmouseover='game_on_move(27, "image_map_28")' onmouseout='game_on_move(27, "image_map_28")' coords="197,254,7" shape="circle">
+                <area onclick="game_on_click('image_map_29', question_fivi, 28)" alt="fivi" onmouseover='game_on_move(28, "image_map_29")' onmouseout='game_on_move(28, "image_map_29")' coords="250,299,7" shape="circle">
+                <!--Западная Греция-->
+                <area onclick="game_on_click('image_map_30', question_olympia, 29)" onmouseover='game_on_move(29, "image_map_30")' onmouseout='game_on_move(29, "image_map_30")' alt="olympia" coords="145,358,7" shape="circle">
+
+                <area onclick="game_on_click('image_map_31', question_agrinion, 30)" alt="agrinion" onmouseover='game_on_move(30, "image_map_31")' onmouseout='game_on_move(30, "image_map_31")' coords="132,276,7" shape="circle">
+                <area onclick="game_on_click('image_map_32', question_patri, 31)" alt="patri" onmouseover='game_on_move(31, "image_map_32")' onmouseout='game_on_move(31, "image_map_32")' coords="151,308,7" shape="circle">
+                <!--Аттика-->
+                <area onclick="game_on_click('image_map_33', question_athens, 32)" onmouseover='game_on_move(32, "image_map_33")' onmouseout='game_on_move(32, "image_map_33")' alt="athens" coords="279,326,7" shape="circle">
+                <area onclick="game_on_click('image_map_34', question_pireas, 33)" onmouseover='game_on_move(33, "image_map_34")' onmouseout='game_on_move(33, "image_map_34")' alt="pireas" coords="265,331,7" shape="circle">
+                <!--Пелопонесс-->
+                <area onclick="game_on_click('image_map_35', question_dimitsana, 34)" onmouseover='game_on_move(34, "image_map_35")' onmouseout='game_on_move(34, "image_map_35")' alt="dimitsana" coords="175,359,7" shape="circle">
+                <area onclick="game_on_click('image_map_36', question_sparta, 35)" onmouseover='game_on_move(35, "image_map_36")' onmouseout='game_on_move(35, "image_map_36")' alt="sparta" coords="199,404,7" shape="circle">
+                <area onclick="game_on_click('image_map_37', question_monemvasia, 36)" onmouseover='game_on_move(36, "image_map_37")' onmouseout='game_on_move(36, "image_map_37")' alt="monemvasia" coords="234,434,7" shape="circle">
+                <area onclick="game_on_click('image_map_38', question_epidaurus, 37)" onmouseover='game_on_move(37, "image_map_38")' onmouseout='game_on_move(37, "image_map_38")' alt="epidaurus" coords="245,358,7" shape="circle">
+
+                <area onclick="game_on_click('image_map_39', question_korinf, 38)" alt="korinf" onmouseover='game_on_move(38, "image_map_39")' onmouseout='game_on_move(38, "image_map_39")' coords="226,333,7" shape="circle">
+                <area onclick="game_on_click('image_map_40', question_nafplion, 39)" alt="nafplion" onmouseover='game_on_move(39, "image_map_40")' onmouseout='game_on_move(39, "image_map_40")' coords="221,363,7" shape="circle">
+                <area onclick="game_on_click('image_map_41', question_kalamata, 40)" alt="kalamata" onmouseover='game_on_move(40, "image_map_41")' onmouseout='game_on_move(40, "image_map_41")' coords="174,408,7" shape="circle">
+                <!--Адриатические Острова-->
+                <area onclick="game_on_click('image_map_42', question_kerkira, 41)" alt="kerkira" onmouseover='game_on_move(41, "image_map_42")' onmouseout='game_on_move(41, "image_map_42")' coords="33,198,7" shape="circle">
+                <area onclick="game_on_click('image_map_43', question_argostoli, 42)" alt="argostoli" onmouseover='game_on_move(42, "image_map_43")' onmouseout='game_on_move(42, "image_map_43")' coords="72,312,7" shape="circle">
+                <!--Северные Эгейские Острова-->
+                <area onclick="game_on_click('image_map_44', question_mirina, 43)" alt="mirina" onmouseover='game_on_move(43, "image_map_44")' onmouseout='game_on_move(43, "image_map_44")' coords="364,174,7" shape="circle">
+                <area onclick="game_on_click('image_map_45', question_mitilini, 44)" alt="mitilini" onmouseover='game_on_move(44, "image_map_45")' onmouseout='game_on_move(44, "image_map_45")' coords="461,237,7" shape="circle">
+                <area onclick="game_on_click('image_map_46', question_skiros, 45)" alt="skiros" onmouseover='game_on_move(45, "image_map_46")' onmouseout='game_on_move(45, "image_map_46")' coords="333,252,7" shape="circle">
+                <area onclick="game_on_click('image_map_47', question_hios, 46)" alt="hios" onmouseover='game_on_move(46, "image_map_47")' onmouseout='game_on_move(46, "image_map_47")' coords="434,297,7" shape="circle">
+                <area onclick="game_on_click('image_map_48', question_ajos_kiritos, 47)" alt="ajos_kiritos" onmouseover='game_on_move(47, "image_map_48")' onmouseout='game_on_move(47, "image_map_48")' coords="444,358,7" shape="circle">
+                <!--Южные Эгейские Острова-->
+                <area onclick="game_on_click('image_map_49', question_mikonos, 48)" alt="mikonos" onmouseover='game_on_move(48, "image_map_49")' onmouseout='game_on_move(48, "image_map_49")' coords="382,374,7" shape="circle">
+                <area onclick="game_on_click('image_map_50', question_ia, 49)" alt="ia" onmouseover='game_on_move(49, "image_map_50")' onmouseout='game_on_move(49, "image_map_50")' coords="386,454,7" shape="circle">
+                <area onclick="game_on_click('image_map_51', question_kos, 50)" alt="kos" onmouseover='game_on_move(50, "image_map_51")' onmouseout='game_on_move(50, "image_map_51")' coords="505,417,7" shape="circle">
+                <area onclick="game_on_click('image_map_52', question_rodos, 51)" alt="rodos" onmouseover='game_on_move(51, "image_map_52")' onmouseout='game_on_move(51, "image_map_52")' coords="567,458,7" shape="circle">
+                <area onclick="game_on_click('image_map_53', question_lindos, 52)" alt="lindos" onmouseover='game_on_move(52, "image_map_53")' onmouseout='game_on_move(52, "image_map_53")' coords="555,484,7" shape="circle">
+                <area onclick="game_on_click('image_map_54', question_karpatos, 53)" alt="karpatos" onmouseover='game_on_move(53, "image_map_54")' onmouseout='game_on_move(53, "image_map_54")' coords="503,532,7" shape="circle">
+                <!--Крит-->
+                <area onclick="game_on_click('image_map_55', question_hania, 54)" onmouseover='game_on_move(54, "image_map_55")' onmouseout='game_on_move(54, "image_map_55")' alt="hania" coords="298,531,7" shape="circle">
+                <area onclick="game_on_click('image_map_56', question_rethymno, 55)" onmouseover='game_on_move(55, "image_map_56")' onmouseout='game_on_move(55, "image_map_56")' alt="rethymno" coords="328,543,7" shape="circle">
+                <area onclick="game_on_click('image_map_57', question_heraklion, 56)" onmouseover='game_on_move(56, "image_map_57")' onmouseout='game_on_move(56, "image_map_57")' alt="heraklion" coords="369,545,7" shape="circle">
+                <area onclick="game_on_click('image_map_58', question_agios_nikolaos, 57)" onmouseover='game_on_move(57, "image_map_58")' onmouseout='game_on_move(57, "image_map_58")' alt="agios_nikolaos" coords="407,557,7" shape="circle">
+
+                <area onclick="game_on_click('image_map_59', question_hora_sfakion, 58)" alt="hora_sfakion" onmouseover='game_on_move(58, "image_map_59")' onmouseout='game_on_move(58, "image_map_59")' coords="306,557,7" shape="circle">
+            </map>
+            </div>
+
+            <hr class="hr-text">
+            <div class="bottons-book-text">
+                <button id="reload_game" onclick='reload_game()' class="btn btn-outline-success text-dark fw-bold" type="button" name="read">Заново!</button>
+                <button id="hint_botton" onclick='game_hint()' title="-50 очков!" class="btn btn-outline-success text-dark fw-bold" type="button" name="read">Подсказка
+                </button>
+            </div>
+            <hr class="hr-text">
+            <div class="container_hint">
+                <h4 class="text-center hint_vis_0" id="hint_text"></h4>
+            </div>
+
+                <div class="content-hr-text-big"><hr class="hr-text-big"></div>
+                <div class="all_offert">
+                    <h4><p class="text-center">Смотрите также!</p></h4>
+                    <div class="offers">
+                        <div class="offer">
+                            <div class="container_image_offer">
+                                <a href="vocabulary_nouns_family.html"><img src="images/vocabulary/family.jpg" alt="family"></a>
+                            </div>
+                            <a href="vocabulary_nouns_family.html"><div class="container_text_offer"><span class="offer_text">Лексика. Существительные на тему "Семья".</span>
+                            </div></a>
+                        </div>
+                        <div class="offer">
+                            <div class="container_image_offer">
+                                <a href="vocabulary_nouns_human.html"><img src="images/vocabulary/anatomy.jpg" alt="human"></a>
+                            </div>
+                            <a href="vocabulary_nouns_human.html"><div class="container_text_offer"><span class="offer_text">Лексика. Существительные на тему "Человек".</span>
+                            </div></a>
+                        </div>
+                        <div class="offer">
+                            <div class="container_image_offer">
+                                <a href="vocabulary_verbs_top.html"><img src="images/vocabulary/chalkboard_verbs_top.jpg" alt="verbs"></a>
+                            </div>
+                            <a href="vocabulary_verbs_top.html"><div class="container_text_offer"><span class="offer_text">Лексика. Топ-250 глаголов!</span>
+                            </div></a>
+                        </div>
+                        <div class="offer">
+                            <div class="container_image_offer">
+                                <a href="vocabulary_adjectives_antonims.html"><img src="images/vocabulary/chalkboard_adjectives_antonims.jpg" alt="adjectives"></a>
+                            </div>
+                            <a href="vocabulary_adjectives_antonims.html"><div class="container_text_offer"><span class="offer_text">Лексика. Антонимы прилагательных.</span>
+                            </div></a>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+    </div>
+    <!-- <div id="sigCommentsBlock"></div>
+    <script type="text/javascript">
+        (function(){
+            var host_id = '5584';
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.async = true;
+            script.src = '//sigcomments.com/chat/?host_id='+host_id;
+            var ss = document.getElementsByTagName('script')[0];
+            ss.parentNode.insertBefore(script, ss);
+        })();
+    </script> -->
+</div>
+<!-- Модальное окно -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Город Афины</h5>
+        <button type="button" class="btn-close btn btn-outline-success btn-close-white" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+        </div>
+        <img src="images/geography/attica_photo.jpg" alt="attica">
+    </div>
+    </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel2">Город Пирей</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <img src="images/geography/attica_photo2.jpg" alt="attica">
+        </div>
+        </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel3">Город Элефсис</h5>
+                <button type="button" class="btn-close btn btn-outline-success btn-close-white" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <img src="images/geography/attica_photo3.jpg" alt="attica">
+            </div>
+            </div>
+            </div>
+
+
+  </div>
+</div>
+<footer class="footer bg-dark text-white">
+    <div class="copyright">
+    <span>
+        Copyright 2021 &copy; All rights reserved
+    </span>
+    </div>
+    <div id="cookie_block">
+        <p>Для улучшения работы сайта и его взаимодействия с пользователями мы используем файлы cookie. Продолжая работу с сайтом, Вы разрешаете использование cookie-файлов. Вы всегда можете отключить файлы cookie в настройках Вашего браузера.</p>
+        <button class="btn btn-outline-success cookie_accept">Принять</button>
+    </div>
+</footer>
+        <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/cookies.js"></script>
+    <script type="text/javascript" src="js/game_cities.js"></script>
+    </body>
+    </html>
