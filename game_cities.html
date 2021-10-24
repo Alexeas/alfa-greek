@@ -124,86 +124,88 @@
             <hr class="hr-header" size="3">
 
             <div class="content_game">
-            <h3 class="text-center" id="question_text"></h3>
-            <h5 class="text-center score_title">Ваш счёт: <span id="score">0</span></h5>
-            <form class="form_game" name=MyForm><input name=stopwatch size=10 value="00:00:00.00" disabled></form>
-            </div>
+                <div class="stick_question">
+                    <h3 class="text-center" id="question_text"></h3>
+                </div>
+                <h5 class="text-center score_title">Ваш счёт: <span id="score">0</span></h5>
+                <form class="form_game" name=MyForm><input name=stopwatch size=10 value="00:00:00.00" disabled></form>
 
-            <div class="map_card">
-            <div class="container_maps">
-                <img class="image_map" id="image" src="images/geography/game_map_cities.png" usemap="#map_greece" alt="map_greece">
-                <!--Восточная Македония и Фракия-->
-                <img class="image_map vis_0" id="image_map_1" src="images/geography/city_alexandroupolis.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_2" src="images/geography/city_xanthi.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_3" src="images/geography/city_kavala.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_4" src="images/geography/city_orestiada.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_5" src="images/geography/city_komotini.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_6" src="images/geography/city_drama.png" usemap="#map_greece" alt="map_city">
-                <!--Центральная Македония-->
-                <img class="image_map vis_0" id="image_map_7" src="images/geography/city_thessaloniki.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_8" src="images/geography/city_litohoro.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_9" src="images/geography/city_sere.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_10" src="images/geography/city_karie.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_11" src="images/geography/city_katerini.png" usemap="#map_greece" alt="map_city">
-                <!--Западная Македония-->
-                <img class="image_map vis_0" id="image_map_12" src="images/geography/city_nympheon.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_13" src="images/geography/city_castoria.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_14" src="images/geography/city_kozani.png" usemap="#map_greece" alt="map_city">
-                <!--Эпир-->
-                <img class="image_map vis_0" id="image_map_15" src="images/geography/city_metsovo.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_16" src="images/geography/city_janina.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_17" src="images/geography/city_parga.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_18" src="images/geography/city_preveza.png" usemap="#map_greece" alt="map_city">
-                <!--Фессалия-->
-                <img class="image_map vis_0" id="image_map_19" src="images/geography/city_kalambaka.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_20" src="images/geography/city_larisa.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_21" src="images/geography/city_volos.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_22" src="images/geography/city_tricala.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_23" src="images/geography/city_karditsa.png" usemap="#map_greece" alt="map_city">
-                <!--Центральная Греция-->
-                <img class="image_map vis_0" id="image_map_24" src="images/geography/city_karystos.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_25" src="images/geography/city_halkida.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_26" src="images/geography/city_delphi.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_27" src="images/geography/city_galaxidi.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_28" src="images/geography/city_lamia.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_29" src="images/geography/city_fivi.png" usemap="#map_greece" alt="map_city">
-                <!--Западная Греция-->
-                <img class="image_map vis_0" id="image_map_30" src="images/geography/city_olympia.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_31" src="images/geography/city_agrinion.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_32" src="images/geography/city_patri.png" usemap="#map_greece" alt="map_city">
-                <!--Аттика-->
-                <img class="image_map vis_0" id="image_map_33" src="images/geography/city_athens.png" usemap="#map_greece" alt="map_cities">
-                <img class="image_map vis_0" id="image_map_34" src="images/geography/city_pireas.png" usemap="#map_greece" alt="map_city">
-                <!--Пелопонесс-->
-                <img class="image_map vis_0" id="image_map_35" src="images/geography/city_dimitsana.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_36" src="images/geography/city_sparta.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_37" src="images/geography/city_monemvasia.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_38" src="images/geography/city_epidaurus.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_39" src="images/geography/city_korinf.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_40" src="images/geography/city_nafplion.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_41" src="images/geography/city_kalamata.png" usemap="#map_greece" alt="map_city">
-                <!--Адриатические Острова-->
-                <img class="image_map vis_0" id="image_map_42" src="images/geography/city_kerkira.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_43" src="images/geography/city_argostoli.png" usemap="#map_greece" alt="map_city">
-                <!--Северные Эгейские Острова-->
-                <img class="image_map vis_0" id="image_map_44" src="images/geography/city_mirina.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_45" src="images/geography/city_mitilini.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_46" src="images/geography/city_skiros.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_47" src="images/geography/city_hios.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_48" src="images/geography/city_ajos_kiritos.png" usemap="#map_greece" alt="map_city">
-                <!--Южные Эгейские Острова-->
-                <img class="image_map vis_0" id="image_map_49" src="images/geography/city_mikonos.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_50" src="images/geography/city_ia.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_51" src="images/geography/city_kos.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_52" src="images/geography/city_rodos.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_53" src="images/geography/city_lindos.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_54" src="images/geography/city_karpatos.png" usemap="#map_greece" alt="map_city">
-                <!--Крит-->
-                <img class="image_map vis_0" id="image_map_55" src="images/geography/city_hania.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_56" src="images/geography/city_rethymno.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_57" src="images/geography/city_heraklion.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_58" src="images/geography/city_agios_nikolaos.png" usemap="#map_greece" alt="map_city">
-                <img class="image_map vis_0" id="image_map_59" src="images/geography/city_hora_sfakion.png" usemap="#map_greece" alt="map_city">
+                <div class="map_card">
+                <div class="container_maps">
+                    <img class="image_map" id="image" src="images/geography/game_map_cities.png" usemap="#map_greece" alt="map_greece">
+                    <!--Восточная Македония и Фракия-->
+                    <img class="image_map vis_0" id="image_map_1" src="images/geography/city_alexandroupolis.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_2" src="images/geography/city_xanthi.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_3" src="images/geography/city_kavala.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_4" src="images/geography/city_orestiada.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_5" src="images/geography/city_komotini.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_6" src="images/geography/city_drama.png" usemap="#map_greece" alt="map_city">
+                    <!--Центральная Македония-->
+                    <img class="image_map vis_0" id="image_map_7" src="images/geography/city_thessaloniki.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_8" src="images/geography/city_litohoro.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_9" src="images/geography/city_sere.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_10" src="images/geography/city_karie.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_11" src="images/geography/city_katerini.png" usemap="#map_greece" alt="map_city">
+                    <!--Западная Македония-->
+                    <img class="image_map vis_0" id="image_map_12" src="images/geography/city_nympheon.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_13" src="images/geography/city_castoria.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_14" src="images/geography/city_kozani.png" usemap="#map_greece" alt="map_city">
+                    <!--Эпир-->
+                    <img class="image_map vis_0" id="image_map_15" src="images/geography/city_metsovo.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_16" src="images/geography/city_janina.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_17" src="images/geography/city_parga.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_18" src="images/geography/city_preveza.png" usemap="#map_greece" alt="map_city">
+                    <!--Фессалия-->
+                    <img class="image_map vis_0" id="image_map_19" src="images/geography/city_kalambaka.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_20" src="images/geography/city_larisa.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_21" src="images/geography/city_volos.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_22" src="images/geography/city_tricala.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_23" src="images/geography/city_karditsa.png" usemap="#map_greece" alt="map_city">
+                    <!--Центральная Греция-->
+                    <img class="image_map vis_0" id="image_map_24" src="images/geography/city_karystos.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_25" src="images/geography/city_halkida.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_26" src="images/geography/city_delphi.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_27" src="images/geography/city_galaxidi.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_28" src="images/geography/city_lamia.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_29" src="images/geography/city_fivi.png" usemap="#map_greece" alt="map_city">
+                    <!--Западная Греция-->
+                    <img class="image_map vis_0" id="image_map_30" src="images/geography/city_olympia.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_31" src="images/geography/city_agrinion.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_32" src="images/geography/city_patri.png" usemap="#map_greece" alt="map_city">
+                    <!--Аттика-->
+                    <img class="image_map vis_0" id="image_map_33" src="images/geography/city_athens.png" usemap="#map_greece" alt="map_cities">
+                    <img class="image_map vis_0" id="image_map_34" src="images/geography/city_pireas.png" usemap="#map_greece" alt="map_city">
+                    <!--Пелопонесс-->
+                    <img class="image_map vis_0" id="image_map_35" src="images/geography/city_dimitsana.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_36" src="images/geography/city_sparta.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_37" src="images/geography/city_monemvasia.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_38" src="images/geography/city_epidaurus.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_39" src="images/geography/city_korinf.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_40" src="images/geography/city_nafplion.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_41" src="images/geography/city_kalamata.png" usemap="#map_greece" alt="map_city">
+                    <!--Адриатические Острова-->
+                    <img class="image_map vis_0" id="image_map_42" src="images/geography/city_kerkira.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_43" src="images/geography/city_argostoli.png" usemap="#map_greece" alt="map_city">
+                    <!--Северные Эгейские Острова-->
+                    <img class="image_map vis_0" id="image_map_44" src="images/geography/city_mirina.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_45" src="images/geography/city_mitilini.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_46" src="images/geography/city_skiros.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_47" src="images/geography/city_hios.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_48" src="images/geography/city_ajos_kiritos.png" usemap="#map_greece" alt="map_city">
+                    <!--Южные Эгейские Острова-->
+                    <img class="image_map vis_0" id="image_map_49" src="images/geography/city_mikonos.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_50" src="images/geography/city_ia.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_51" src="images/geography/city_kos.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_52" src="images/geography/city_rodos.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_53" src="images/geography/city_lindos.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_54" src="images/geography/city_karpatos.png" usemap="#map_greece" alt="map_city">
+                    <!--Крит-->
+                    <img class="image_map vis_0" id="image_map_55" src="images/geography/city_hania.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_56" src="images/geography/city_rethymno.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_57" src="images/geography/city_heraklion.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_58" src="images/geography/city_agios_nikolaos.png" usemap="#map_greece" alt="map_city">
+                    <img class="image_map vis_0" id="image_map_59" src="images/geography/city_hora_sfakion.png" usemap="#map_greece" alt="map_city">
+                </div>
             </div>
             <map name="map_greece" id="map_greece">
                 <!--Восточная Македония и Фракия-->
@@ -289,7 +291,7 @@
             </map>
             </div>
 
-            <hr class="hr-text">
+            <hr class="hr-text mt-0">
             <div class="bottons-book-text">
                 <button id="reload_game" onclick='reload_game()' class="btn btn-outline-success text-dark fw-bold button_game" type="button" name="read">Заново!</button>
                 <button id="hint_botton" onclick='game_hint()' title="-50 очков!" class="btn btn-outline-success text-dark fw-bold button_game" type="button" name="read">Подсказка

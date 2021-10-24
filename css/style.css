@@ -295,12 +295,11 @@
     }
     .boxtext-content{
         min-height: 94.2%;
-        padding: 0 12px;
-        padding-bottom: 12px;
+        padding: 12px;
+        padding-top: 0.1px;
         background-color: #fffff0;
         opacity: 0.95;
         border-radius: 5px;
-        overflow: hidden;
     }
     .dropdown-item{
         font-size: 14px;
@@ -619,15 +618,29 @@ map area{
     margin-top: 24px;
 }
 #question_text{
-    padding-bottom: 18px;
+    margin-bottom: 24px;
+    padding: 6px 0;
 }
 #none_hint{
     position: absolute;
     top: 50%;
     left: 50%;
 }
+
+.stick_question{
+    position: sticky;
+    position: -webkit-sticky;
+    display: block;
+    top: 0;
+    z-index: 5;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(180,180,180,0.25) 0%, rgba(135,135,135,0.5) 20%, rgba(129,129,129,0.75) 50%, rgba(135,135,135,0.5) 80%, rgba(180,180,180,0.25) 100%);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.5);
+}
 .score_title{
-    padding-bottom: 18px;
+    padding-bottom: 12px;
+    display: block;
+    height: auto;
 }
 #score{
     background-color: #212529;
@@ -637,7 +650,14 @@ map area{
 }
 .content_game{
     text-align: center;
+    height: 100%;
+    position: relative;
+    border: 1px solid rgb(123,126,126,0.25);
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+
 }
+
 .form_game{
     padding-bottom: 12px;
     background-color: none;
@@ -1031,15 +1051,13 @@ map area{
             color: white;
         }
         .navbarleft {
-            margin: 12px;
-            margin-right: 12px;
-            margin-bottom: 0;
+            margin: 0 12px 12px 12px;
             width: auto;
+            position: relative;
         }
         .all-body {
             padding: 0;
             margin: 0;
-            overflow: hidden;
             display: block;
         }
         .boxtext {
