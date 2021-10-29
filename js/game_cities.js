@@ -250,7 +250,11 @@ function game_on_move(t, id) {
 };
 //Главная Функция
 function game_on_click(id, question, t) {
-    i—Stop();
+    if (question_array.length == 1) {
+        audio_winner.play();
+        tags_reset();
+        game_over();
+        StartStop();
         document.getElementById(id).classList.remove("vis_0");
         score += 50;
         document.getElementById('score').innerHTML = score;

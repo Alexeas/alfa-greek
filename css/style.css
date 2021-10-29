@@ -936,13 +936,12 @@ map area{
     .all_offert h4{
         color: white;
         padding-bottom: 12px;
-        font-size: 1.6em;
     }
     .offers{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-left: 6px;
+        margin-left: 4px;
     }
     .offer{
         display: flex;
