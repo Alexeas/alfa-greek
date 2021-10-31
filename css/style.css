@@ -962,16 +962,19 @@ map area{
     .container_text_offer{
         flex: 0 1 auto;
         padding-left: 12px;
-    }
-    .offer_text{
+        height: 150px;
+        display: flex;
+        align-items: center;
+        text-shadow: 0 0 9px #198754;
+        transition: 0.5s;
         color: black;
         font-size: 24px;
-        text-shadow:0 0 1px rgba(0,0,0);
         transition: 0.5s;
         text-decoration: bold;
+        padding: 0 6px;
     }
-    .offer_text:hover{
-        text-shadow:0px 0px 2px #fff;
+    .container_text_offer:hover{
+        text-shadow: 0 0 0px #198754;
     }
     .container_image_offer{
         width: 150px;
@@ -1090,6 +1093,7 @@ map area{
             flex: 0 1 auto;
             padding-left: 0;
             padding-bottom: 12px;
+            height: auto;
         }
         .content-hr-text-big{
             width: 100%;
