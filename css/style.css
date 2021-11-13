@@ -1042,10 +1042,10 @@ map area{
             background-repeat: repeat;
             background-attachment: fixed!important;
             background-position: center center;
-            -webkit-background-size: auto;
-            -moz-background-size: auto;
-            -o-background-size: auto;
-            background-size: auto;
+            -webkit-background-size: auto 186px;
+            -moz-background-size: auto 186px;
+            -o-background-size: auto 186px;
+            background-size: auto 186px;
         }
         .all-menu{
             flex-wrap: wrap;
