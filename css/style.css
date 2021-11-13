@@ -1041,7 +1041,7 @@ map area{
             background-image: url("../images/flag.png");
             background-repeat: repeat;
             background-attachment: fixed!important;
-            background-position: center center;
+            background-position: center top;
             -webkit-background-size: auto 186px;
             -moz-background-size: auto 186px;
             -o-background-size: auto 186px;
