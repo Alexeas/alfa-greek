@@ -1,5 +1,5 @@
 $( function() {
-            $('form').submit(function() {
+            $('.form-search').submit(function() {
                 $("#menu-burger__header").click();
                 return false;
             });

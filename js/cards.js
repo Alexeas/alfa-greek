@@ -1,7 +1,7 @@
 $(function() {
-  $('#open-card').click(function() {
-    $('#slider-card').toggleClass('hidden');
-  });
+    $('#open-card').click(function() {
+      $('#slider-card').toggleClass('hidden');
+    });
 });
 
 $(function() {
