@@ -1167,7 +1167,6 @@ const ans_array = [ans_1,ans_2,ans_3,ans_4,ans_5,ans_6,ans_7,ans_8,ans_9,ans_10,
 
                 function game_hint() {
                         audio_hint.play();
-                        block_button.removeAttribute('onclick');
                         input.value = ans_array[0];
                 };
     //Конец Игры
