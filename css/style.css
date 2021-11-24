@@ -1166,5 +1166,6 @@ map area{
         #input_verb{
             margin-bottom: 24px;
             margin-right: 0;
+            width: 95%;
         }
 }
