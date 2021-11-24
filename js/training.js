@@ -1156,7 +1156,6 @@ const ans_array = [ans_1,ans_2,ans_3,ans_4,ans_5,ans_6,ans_7,ans_8,ans_9,ans_10,
     const audio_bad = new Audio('music/bad.wav');
     const audio_great = new Audio('music/great.wav');
     let input = document.getElementById('input_verb');
-    document.getElementById('hint_text').innerHTML = ans_array[0];
     const audio_hint = new Audio('music/hint.wav');
     let block_button = document.getElementById('hint_botton');
 
@@ -1164,7 +1163,6 @@ const ans_array = [ans_1,ans_2,ans_3,ans_4,ans_5,ans_6,ans_7,ans_8,ans_9,ans_10,
                     $("#input_button").click();
                     return false;
                 });
-
 
                 function game_hint() {
                         audio_hint.play();
