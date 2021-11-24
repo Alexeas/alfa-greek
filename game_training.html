@@ -123,18 +123,13 @@
             <h1 class="text-center">Тренажёр. Спряжение неправильных глаголов в Аористе</h1>
             <hr class="hr-header" size="3">
 
-            <div class="content_game" style="padding:24px;">
+            <div class="content_game content_training" style="padding:24px;">
                 <div>
                     <h3 class="text-center" id="question_text"></h3>
                 </div>
-            <form class="form_game" id="form_game" style="padding-bottom:24px;"><input autofocus type="text" name="verb" id="input_verb" size="30"><button onclick='game_on_click()' id="input_button" class="btn btn-outline-success text-dark fw-bold button_game" type="button">Ввод</button></form>
+            <form class="form_game" id="form_game" style="padding-bottom:24px;"><input autofocus type="text" name="verb" id="input_verb"><button id="hint_botton" onclick='game_hint()' class="btn btn-outline-success text-dark fw-bold button_game" type="button" name="read" style="margin-right:12px;">Ответ</button><button onclick='game_on_click()' id="input_button" class="btn btn-outline-success text-dark fw-bold button_game" type="button">Ввод</button></form>
             <h5 class="text-center score_title">Осталось вопросов: <span id="score"></span></h5>
             </div>
-            <hr class="hr-text mt-0">
-            <div class="bottons-book-text">
-                <button id="hint_botton" onclick='game_hint()' class="btn btn-outline-success text-dark fw-bold button_game" type="button" name="read">Ответ</button>
-            </div>
-            <hr class="hr-text mb-0">
 
                 <div class="content-hr-text-big"><hr class="hr-text-big"></div>
                 <div class="all_offert">
@@ -175,7 +170,7 @@
     </div>
 
     </div>
-<div id="sigCommentsBlock"></div>
+<!-- <div id="sigCommentsBlock"></div>
     <script type="text/javascript">
         (function(){
             var host_id = '5584';
@@ -186,7 +181,7 @@
             var ss = document.getElementsByTagName('script')[0];
             ss.parentNode.insertBefore(script, ss);
         })();
-    </script>
+    </script> -->
 
 </div>
 
