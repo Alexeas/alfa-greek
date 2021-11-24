@@ -953,9 +953,9 @@ const ans_396 = "μετέβαλαν, μεταβάλανε";
 const ans_397 = "μετέδωσα";
 const ans_398 = "μετέδωσες";
 const ans_399 = "μετέδωσε";
-const ans_400 = "μετεδώσαμε";
-const ans_401 = "μετεδώσατε";
-const ans_402 = "μετέδωσαν, μετεδώσανε";
+const ans_400 = "μεταδώσαμε";
+const ans_401 = "μεταδώσατε";
+const ans_402 = "μετέδωσαν, μεταδώσανε";
 const ans_403 = "μετέφρασα, μετάφρασα";
 const ans_404 = "μετέφρασες, μετάφρασες";
 const ans_405 = "μετέφρασε, μετάφρασε";
@@ -1181,7 +1181,7 @@ const ans_array = [ans_1,ans_2,ans_3,ans_4,ans_5,ans_6,ans_7,ans_8,ans_9,ans_10,
             score -= 1;
             document.getElementById('score').innerHTML = score;
         }
-        else if (ans_array[0].includes(input.value) == true && input.value.length > 3) {
+        else if (ans_array[0].includes(input.value.toLowerCase()) == true && input.value.length > 3) {
             audio_great.play();
             ans_array.shift();
             qw_array.shift();
