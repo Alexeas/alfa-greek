@@ -660,7 +660,6 @@ map area{
     background-color: white;
 }
 .content_training{
-    background-color: inherit;
     border: 1px solid rgb(139, 143, 140);
     margin-bottom: 24px;
     border-radius: 5px;
