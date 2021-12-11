@@ -21,12 +21,7 @@
         text-decoration: none;
     }
     u {
-      text-decoration: #c0c0c0 solid underline;
       color: #191b2e;
-    }
-    u:hover {
-      text-decoration: none;
-      color: black;
     }
     ul{
         list-style-type: circle;
@@ -627,6 +622,9 @@ map area{
     position: absolute;
     top: 50%;
     left: 50%;
+}
+.game_display_none{
+    display: none!important;
 }
 
 .stick_question{

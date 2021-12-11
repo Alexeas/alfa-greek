@@ -46,12 +46,12 @@ const q_45 = "Она нашла (βρίσκω)";
 const q_46 = "Мы нашли (βρίσκω)";
 const q_47 = "Вы нашли (βρίσκω)";
 const q_48 = "Они нашли (βρίσκω)";
-const q_49 = "Я дал (δίνω)";
-const q_50 = "Ты дал (δίνω)";
-const q_51 = "Он дал (δίνω)";
-const q_52 = "Мы дали (δίνω)";
-const q_53 = "Вы дали (δίνω)";
-const q_54 = "Они дали (δίνω)";
+const q_49 = "Я дал (δίνω, δίδω, διώ)";
+const q_50 = "Ты дал (δίνω, δίδω, διώ)";
+const q_51 = "Он дал (δίνω, δίδω, διώ)";
+const q_52 = "Мы дали (δίνω, δίδω, διώ)";
+const q_53 = "Вы дали (δίνω, δίδω, διώ)";
+const q_54 = "Они дали (δίνω, δίδω, διώ)";
 const q_55 = "Я взял (παίρνω)";
 const q_56 = "Ты взял (παίρνω)";
 const q_57 = "Она взяла (παίρνω)";
@@ -76,12 +76,12 @@ const q_75 = "Он успел (προλαβαίνω)";
 const q_76 = "Мы успели (προλαβαίνω)";
 const q_77 = "Вы успели (προλαβαίνω)";
 const q_78 = "Они успели (προλαβαίνω)";
-const q_79 = "Я сделал (κάνω)";
-const q_80 = "Ты сделал (κάνω)";
-const q_81 = "Она сделала (κάνω)";
-const q_82 = "Мы сделали (κάνω)";
-const q_83 = "Вы сделали (κάνω)";
-const q_84 = "Они сделали (κάνω)";
+const q_79 = "Я пострадал (υποφέρω)";
+const q_80 = "Ты пострадал (υποφέρω)";
+const q_81 = "Он пострадал (υποφέρω)";
+const q_82 = "Мы пострадали (υποφέρω)";
+const q_83 = "Вы пострадали (υποφέρω)";
+const q_84 = "Они пострадали (υποφέρω)";
 const q_85 = "Я сказал (λέω)";
 const q_86 = "Ты сказал (λέω)";
 const q_87 = "Он сказал (λέω)";
@@ -148,12 +148,12 @@ const q_147 = "Он поел (τρώω)";
 const q_148 = "Мы поели (τρώω)";
 const q_149 = "Вы поели (τρώω)";
 const q_150 = "Они поели (τρώω)";
-const q_151 = "Я предложил (προτείνω)";
-const q_152 = "Ты предложил (προτείνω)";
-const q_153 = "Она предложила (προτείνω)";
-const q_154 = "Мы предложили (προτείνω)";
-const q_155 = "Вы предложили (προτείνω)";
-const q_156 = "Они предложили (προτείνω)";
+const q_151 = "Я предположил (υποθέτω)";
+const q_152 = "Ты предположил (υποθέτω)";
+const q_153 = "Она предположила (υποθέτω)";
+const q_154 = "Мы предположили (υποθέτω)";
+const q_155 = "Вы предположили (υποθέτω)";
+const q_156 = "Они предположили (υποθέτω)";
 const q_157 = "Я послал (στέλνω)";
 const q_158 = "Ты послал (στέλνω)";
 const q_159 = "Он послал (στέλνω)";
@@ -214,12 +214,12 @@ const q_213 = "Он избежал (αποφεύγω)";
 const q_214 = "Мы избежали (αποφεύγω)";
 const q_215 = "Вы избежали (αποφεύγω)";
 const q_216 = "Они избежали (αποφεύγω)";
-const q_217 = "Я нравлюсь (αρέσω)";
-const q_218 = "Ты нравишься (αρέσω)";
-const q_219 = "Она нравится (αρέσω)";
-const q_220 = "Мы нравимся (αρέσω)";
-const q_221 = "Вы нравитесь (αρέσω)";
-const q_222 = "Они нравятся (αρέσω)";
+const q_217 = "Я был виноват (φταίω)";
+const q_218 = "Ты был виноват (φταίω)";
+const q_219 = "Она была виновата (φταίω)";
+const q_220 = "Мы были виноваты (φταίω)";
+const q_221 = "Вы были виноваты (φταίω)";
+const q_222 = "Они были виноваты (φταίω)";
 const q_223 = "Я заболел (αρρωσταίνω)";
 const q_224 = "Ты заболел (αρρωσταίνω)";
 const q_225 = "Он заболел (αρρωσταίνω)";
@@ -448,7 +448,7 @@ const q_447 = "Он помыл (πλένω)";
 const q_448 = "Мы помыли (πλένω)";
 const q_449 = "Вы помыли (πλένω)";
 const q_450 = "Они помыли (πλένω)";
-const q_451 = "Должен (πρέπει)";
+const q_451 = "Случился (συμβαίνει)";
 const q_452 = "Я обидел (προσβάλλω)";
 const q_453 = "Ты обидел (προσβάλλω)";
 const q_454 = "Она обидела (προσβάλλω)";
@@ -534,25 +534,6 @@ const q_533 = "Он подписал (υπογράφω)";
 const q_534 = "Мы подписали (υπογράφω)";
 const q_535 = "Вы подписали (υπογράφω)";
 const q_536 = "Они подписали (υπογράφω)";
-const q_537 = "Я предположил (υποθέτω)";
-const q_538 = "Ты предположил (υποθέτω)";
-const q_539 = "Она предположила (υποθέτω)";
-const q_540 = "Мы предположили (υποθέτω)";
-const q_541 = "Вы предположили (υποθέτω)";
-const q_542 = "Они предположили (υποθέτω)";
-const q_543 = "Я пострадал (υποφέρω)";
-const q_544 = "Ты пострадал (υποφέρω)";
-const q_545 = "Он пострадал (υποφέρω)";
-const q_546 = "Мы пострадали (υποφέρω)";
-const q_547 = "Вы пострадали (υποφέρω)";
-const q_548 = "Они пострадали (υποφέρω)";
-const q_549 = "Я был виноват (φταίω)";
-const q_550 = "Ты был виноват (φταίω)";
-const q_551 = "Она была виновата (φταίω)";
-const q_552 = "Мы были виноваты (φταίω)";
-const q_553 = "Вы были виноваты (φταίω)";
-const q_554 = "Они были виноваты (φταίω)";
-const q_555 = "Случился (συμβαίνει)";
 
 const ans_1 = "ανέβηκα";
 const ans_2 = "ανέβηκες";
@@ -602,12 +583,12 @@ const ans_45 = "βρήκε";
 const ans_46 = "βρήκαμε";
 const ans_47 = "βρήκατε";
 const ans_48 = "βρήκαν, βρήκανε";
-const ans_49 = "έδωσα";
-const ans_50 = "έδωσες";
-const ans_51 = "έδωσε";
-const ans_52 = "δώσαμε";
-const ans_53 = "δώσατε";
-const ans_54 = "έδωσαν, δώσανε";
+const ans_49 = "έδωσα, έδωκα";
+const ans_50 = "έδωσες, έδωκες";
+const ans_51 = "έδωσε, έδωκε";
+const ans_52 = "δώσαμε, δώκαμε";
+const ans_53 = "δώσατε, δώκατε";
+const ans_54 = "έδωσαν, δώσανε, έδωκαν, δώκανε";
 const ans_55 = "πήρα";
 const ans_56 = "πήρες";
 const ans_57 = "πήρε";
@@ -632,12 +613,12 @@ const ans_75 = "πρόλαβε";
 const ans_76 = "προλάβαμε";
 const ans_77 = "προλάβατε";
 const ans_78 = "πρόλαβαν, προλάβανε";
-const ans_79 = "έκανα";
-const ans_80 = "έκανες";
-const ans_81 = "έκανε";
-const ans_82 = "κάναμε";
-const ans_83 = "κάνατε";
-const ans_84 = "έκαναν, κάνανε";
+const ans_79 = "υπέφερα";
+const ans_80 = "υπέφερες";
+const ans_81 = "υπέφερε";
+const ans_82 = "υποφέραμε";
+const ans_83 = "υποφέρατε";
+const ans_84 = "υπέφεραν, υποφέρανε";
 const ans_85 = "είπα";
 const ans_86 = "είπες";
 const ans_87 = "είπε";
@@ -656,12 +637,12 @@ const ans_99 = "έμεινε";
 const ans_100 = "μείναμε";
 const ans_101 = "μείνατε";
 const ans_102 = "έμειναν, μείνανε";
-const ans_103 = "περίμενα";
-const ans_104 = "περίμενες";
-const ans_105 = "περίμενε";
-const ans_106 = "περιμέναμε";
-const ans_107 = "περιμένατε";
-const ans_108 = "περίμεναν, περιμένανε";
+const ans_103 = "περίμεινα";
+const ans_104 = "περίμεινες";
+const ans_105 = "περίμεινε";
+const ans_106 = "περιμείναμε";
+const ans_107 = "περιμείνατε";
+const ans_108 = "περίμειναν, περιμείνανε";
 const ans_109 = "ήξερα";
 const ans_110 = "ήξερες";
 const ans_111 = "ήξερε";
@@ -704,12 +685,12 @@ const ans_147 = "έφαγε";
 const ans_148 = "φάγαμε";
 const ans_149 = "φάγατε";
 const ans_150 = "έφαγαν, φάγανε";
-const ans_151 = "πρότεινα";
-const ans_152 = "πρότεινες";
-const ans_153 = "πρότεινε";
-const ans_154 = "προτείναμε";
-const ans_155 = "προτείνατε";
-const ans_156 = "πρότειναν, προτείνανε";
+const ans_151 = "υπέθεσα";
+const ans_152 = "υπέθεσες";
+const ans_153 = "υπέθεσε";
+const ans_154 = "υποθέσαμε";
+const ans_155 = "υποθέσατε";
+const ans_156 = "υπέθεσαν, υποθέσανε";
 const ans_157 = "έστειλα";
 const ans_158 = "έστειλες";
 const ans_159 = "έστειλε";
@@ -752,12 +733,12 @@ const ans_195 = "αντικατέστησε";
 const ans_196 = "αντικατεστήσαμε";
 const ans_197 = "αντικατεστήσατε";
 const ans_198 = "αντικατέστησαν, αντικατεστήσανε";
-const ans_199 = "απέδωσα, απόδωσα";
-const ans_200 = "απέδωσες, απόδωσες";
-const ans_201 = "απέδωσε, απόδωσε";
-const ans_202 = "αποδώσαμε";
-const ans_203 = "αποδώσατε";
-const ans_204 = "απέδωσαν, αποδώσανε";
+const ans_199 = "απέδωσα, απόδωσα, απόδωκα";
+const ans_200 = "απέδωσες, απόδωσες, απόδωκες";
+const ans_201 = "απέδωσε, απόδωσε, απόδωκε";
+const ans_202 = "αποδώσαμε, αποδώκαμε";
+const ans_203 = "αποδώσατε, αποδώκατε";
+const ans_204 = "απέδωσαν, αποδώσανε, απόδωκαν, αποδώκανε";
 const ans_205 = "απέτυχα";
 const ans_206 = "απέτυχε";
 const ans_207 = "απέτυχες";
@@ -770,12 +751,12 @@ const ans_213 = "απέφυγε";
 const ans_214 = "αποφύγαμε";
 const ans_215 = "αποφύγατε";
 const ans_216 = "απέφυγαν, αποφύγανε";
-const ans_217 = "άρεσα";
-const ans_218 = "άρεσες";
-const ans_219 = "άρεσε";
-const ans_220 = "αρέσαμε";
-const ans_221 = "αρέσατε";
-const ans_222 = "άρεσαν, αρέσανε";
+const ans_217 = "έφταιξα";
+const ans_218 = "έφταιξες";
+const ans_219 = "έφταιξε";
+const ans_220 = "φταίξαμε";
+const ans_221 = "φταίξατε";
+const ans_222 = "έφταιξαν, φταίξανε";
 const ans_223 = "αρρώστησα";
 const ans_224 = "αρρώστησες";
 const ans_225 = "αρρώστησε";
@@ -812,12 +793,12 @@ const ans_255 = "διέκοψε";
 const ans_256 = "διακόψαμε";
 const ans_257 = "διακόψατε";
 const ans_258 = "διέκοψαν, διακόψανε";
-const ans_259 = "διεύθυνα";
-const ans_260 = "διεύθυνες";
-const ans_261 = "διεύθυνε";
+const ans_259 = "διεύθυνα, διηύθυνα";
+const ans_260 = "διεύθυνες, διηύθυνες";
+const ans_261 = "διεύθυνε, διηύθυνε";
 const ans_262 = "διευθύναμε";
 const ans_263 = "διευθύνατε";
-const ans_264 = "διεύθυναν, διευθύνανε";
+const ans_264 = "διεύθυναν, διευθύνανε, διηύθυναν";
 const ans_265 = "εγκατέλειψα";
 const ans_266 = "εγκατέλειψες";
 const ans_267 = "εγκατέλειψε";
@@ -1004,7 +985,7 @@ const ans_447 = "έπλυνε";
 const ans_448 = "πλύναμε";
 const ans_449 = "πλύνατε";
 const ans_450 = "έπλυναν, πλύνανε";
-const ans_451 = "έπρεπε";
+const ans_451 = "συνέβη";
 const ans_452 = "πρόσβαλα";
 const ans_453 = "πρόσβαλες";
 const ans_454 = "πρόσβαλε";
@@ -1090,25 +1071,6 @@ const ans_533 = "υπέγραψε, υπόγραψε";
 const ans_534 = "υπογράψαμε";
 const ans_535 = "υπογράψατε";
 const ans_536 = "υπέγραψαν, υπογράψανε, υπόγραψαν";
-const ans_537 = "υπέθεσα";
-const ans_538 = "υπέθεσες";
-const ans_539 = "υπέθεσε";
-const ans_540 = "υποθέσαμε";
-const ans_541 = "υποθέσατε";
-const ans_542 = "υπέθεσαν, υποθέσανε";
-const ans_543 = "υπέφερα";
-const ans_544 = "υπέφερες";
-const ans_545 = "υπέφερε";
-const ans_546 = "υποφέραμε";
-const ans_547 = "υποφέρατε";
-const ans_548 = "υπέφεραν, υποφέρανε";
-const ans_549 = "έφταιξα";
-const ans_550 = "έφταιξες";
-const ans_551 = "έφταιξε";
-const ans_552 = "φταίξαμε";
-const ans_553 = "φταίξατε";
-const ans_554 = "έφταιξαν, φταίξανε";
-const ans_555 = "συνέβη";
 
 const qw_array = [q_1,q_2,q_3,q_4,q_5,q_6,q_7,q_8,q_9,q_10,q_11,q_12,q_13,q_14,q_15,q_16,q_17,q_18,q_19,q_20,q_21,q_22,q_23,q_24,q_25,q_26,q_27,q_28,q_29,q_30,q_31,q_32,q_33,q_34,q_35,q_36,q_37,q_38,q_39,q_40,
     q_41,q_42,q_43,q_44,q_45,q_46,q_47,q_48,q_49,q_50,q_51,q_52,q_53,q_54,q_55,q_56,q_57,q_58,q_59,q_60,q_61,q_62,q_63,q_64,q_65,q_66,q_67,q_68,q_69,q_70,q_71,q_72,q_73,q_74,q_75,q_76,q_77,q_78,q_79,q_80,
@@ -1123,7 +1085,7 @@ const qw_array = [q_1,q_2,q_3,q_4,q_5,q_6,q_7,q_8,q_9,q_10,q_11,q_12,q_13,q_14,q
     q_401,q_402,q_403,q_404,q_405,q_406,q_407,q_408,q_409,q_410,q_411,q_412,q_413,q_414,q_415,q_416,q_417,q_418,q_419,q_420,q_421,q_422,q_423,q_424,q_425,q_426,q_427,q_428,q_429,q_430,q_431,q_432,q_433,q_434,q_435,q_436,q_437,q_438,q_439,q_440,
     q_441,q_442,q_443,q_444,q_445,q_446,q_447,q_448,q_449,q_450,q_451,q_452,q_453,q_454,q_455,q_456,q_457,q_458,q_459,q_460,q_461,q_462,q_463,q_464,q_465,q_466,q_467,q_468,q_469,q_470,q_471,q_472,q_473,q_474,q_475,q_476,q_477,q_478,q_479,q_480,
     q_481,q_482,q_483,q_484,q_485,q_486,q_487,q_488,q_489,q_490,q_491,q_492,q_493,q_494,q_495,q_496,q_497,q_498,q_499,q_500,q_501,q_502,q_503,q_504,q_505,q_506,q_507,q_508,q_509,q_510,q_511,q_512,q_513,q_514,q_515,q_516,q_517,q_518,q_519,q_520,
-    q_521,q_522,q_523,q_524,q_525,q_526,q_527,q_528,q_529,q_530,q_531,q_532,q_533,q_534,q_535,q_536,q_537,q_538,q_539,q_540,q_541,q_542,q_543,q_544,q_545,q_546,q_547,q_548,q_549,q_550,q_551,q_552,q_553,q_554,q_555];
+    q_521,q_522,q_523,q_524,q_525,q_526,q_527,q_528,q_529,q_530,q_531,q_532,q_533,q_534,q_535,q_536];
 const ans_array = [ans_1,ans_2,ans_3,ans_4,ans_5,ans_6,ans_7,ans_8,ans_9,ans_10,ans_11,ans_12,ans_13,ans_14,ans_15,ans_16,ans_17,ans_18,ans_19,ans_20,ans_21,ans_22,ans_23,ans_24,ans_25,ans_26,ans_27,ans_28,ans_29,ans_30,ans_31,ans_32,ans_33,ans_34,ans_35,ans_36,ans_37,ans_38,ans_39,ans_40,
     ans_41,ans_42,ans_43,ans_44,ans_45,ans_46,ans_47,ans_48,ans_49,ans_50,ans_51,ans_52,ans_53,ans_54,ans_55,ans_56,ans_57,ans_58,ans_59,ans_60,ans_61,ans_62,ans_63,ans_64,ans_65,ans_66,ans_67,ans_68,ans_69,ans_70,ans_71,ans_72,ans_73,ans_74,ans_75,ans_76,ans_77,ans_78,ans_79,ans_80,
     ans_81,ans_82,ans_83,ans_84,ans_85,ans_86,ans_87,ans_88,ans_89,ans_90,ans_91,ans_92,ans_93,ans_94,ans_95,ans_96,ans_97,ans_98,ans_99,ans_100,ans_101,ans_102,ans_103,ans_104,ans_105,ans_106,ans_107,ans_108,ans_109,ans_110,ans_111,ans_112,ans_113,ans_114,ans_115,ans_116,ans_117,ans_118,ans_119,ans_120,
@@ -1137,9 +1099,18 @@ const ans_array = [ans_1,ans_2,ans_3,ans_4,ans_5,ans_6,ans_7,ans_8,ans_9,ans_10,
     ans_401,ans_402,ans_403,ans_404,ans_405,ans_406,ans_407,ans_408,ans_409,ans_410,ans_411,ans_412,ans_413,ans_414,ans_415,ans_416,ans_417,ans_418,ans_419,ans_420,ans_421,ans_422,ans_423,ans_424,ans_425,ans_426,ans_427,ans_428,ans_429,ans_430,ans_431,ans_432,ans_433,ans_434,ans_435,ans_436,ans_437,ans_438,ans_439,ans_440,
     ans_441,ans_442,ans_443,ans_444,ans_445,ans_446,ans_447,ans_448,ans_449,ans_450,ans_451,ans_452,ans_453,ans_454,ans_455,ans_456,ans_457,ans_458,ans_459,ans_460,ans_461,ans_462,ans_463,ans_464,ans_465,ans_466,ans_467,ans_468,ans_469,ans_470,ans_471,ans_472,ans_473,ans_474,ans_475,ans_476,ans_477,ans_478,ans_479,ans_480,
     ans_481,ans_482,ans_483,ans_484,ans_485,ans_486,ans_487,ans_488,ans_489,ans_490,ans_491,ans_492,ans_493,ans_494,ans_495,ans_496,ans_497,ans_498,ans_499,ans_500,ans_501,ans_502,ans_503,ans_504,ans_505,ans_506,ans_507,ans_508,ans_509,ans_510,ans_511,ans_512,ans_513,ans_514,ans_515,ans_516,ans_517,ans_518,ans_519,ans_520,
-    ans_521,ans_522,ans_523,ans_524,ans_525,ans_526,ans_527,ans_528,ans_529,ans_530,ans_531,ans_532,ans_533,ans_534,ans_535,ans_536,ans_537,ans_538,ans_539,ans_540,ans_541,ans_542,ans_543,ans_544,ans_545,ans_546,ans_547,ans_548,ans_549,ans_550,ans_551,ans_552,ans_553,ans_554,ans_555];
+    ans_521,ans_522,ans_523,ans_524,ans_525,ans_526,ans_527,ans_528,ans_529,ans_530,ans_531,ans_532,ans_533,ans_534,ans_535,ans_536];
+const t_array = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,5,5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,5,5,5,5,5,5,
+    1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6,6,6,6,6,6,5,5,5,5,5,5,1,1,1,1,1,1,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,
+    1,1,1,1,1,1,4,4,4,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,5,5,5,5,5,5,6,6,6,6,6,6,5,5,5,5,5,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+    2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,5,5,5,5,5,5,
+    1,1,1,1,1,1,5,5,5,5,5,5,6,6,6,6,6,6,3,3,3,3,3,3,6,6,6,6,6,6,6,6,6,6,6,6,2,2,2,2,2,2,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+    3,3,3,3,3,3,6,6,6,6,6,6,6,6,6,6,6,6,2,2,2,2,2,2,2,2,2,2,2,2,6,6,6,6,6,6,6,6,6,6,6,6,2,2,2,2,2,2,6,6,6,6,6,6,1,1,1,1,1,1,
+    6,6,6,6,6,6,1,1,1,1,1,1,6,6,6,6,6,6,1,1,1,1,1,1,4,4,4,4,4,4,1,1,1,1,1,1,3,3,3,3,3,3,6,6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1,1,
+    2,2,2,2,2,2,6,6,6,6,6,6,2,2,2,2,2,2,1,1,1,1,1,1,3,3,3,3,3,3,3,1,1,1,1,1,1,6,6,6,6,6,6,1,1,1,1,1,1,5,5,5,5,5,5,
+    4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,2,2,2,2,2,2,6,3,3,3,3,3,3,1,1,1,1,1,1,3,3,3,3,3,3,1,1,1,1,1,1,6,6,6,6,6,6,];
 
-    for (var i = 0 ; (i < 555) && (i < qw_array.length) ; i++) {
+    for (var i = 0 ; (i < 536) && (i < qw_array.length) ; i++) {
         var r = Math.floor(Math.random() * (qw_array.length - i)) + i;
         var question = qw_array[r];
         qw_array[r] = qw_array[i];
@@ -1148,9 +1119,13 @@ const ans_array = [ans_1,ans_2,ans_3,ans_4,ans_5,ans_6,ans_7,ans_8,ans_9,ans_10,
         var answer = ans_array[r];
         ans_array[r] = ans_array[i];
         ans_array[i] = answer;
+
+        var table = t_array[r];
+        t_array[r] = t_array[i];
+        t_array[i] = table;
     };
 
-    let score = 555;
+    let score = 536;
     document.getElementById('question_text').innerHTML = qw_array[0];
     document.getElementById('score').innerHTML = score;
     const audio_winner = new Audio('music/winner.wav');
@@ -1160,6 +1135,13 @@ const ans_array = [ans_1,ans_2,ans_3,ans_4,ans_5,ans_6,ans_7,ans_8,ans_9,ans_10,
     const audio_hint = new Audio('music/hint.wav');
     let block_button = document.getElementById('hint_botton');
 
+    let group_1 = document.getElementById('group_1');
+    let group_2 = document.getElementById('group_2');
+    let group_3 = document.getElementById('group_3');
+    let group_4 = document.getElementById('group_4');
+    let group_5 = document.getElementById('group_5');
+    let group_6 = document.getElementById('group_6');
+
                 $('#form_game').submit(function() {
                     $("#input_button").click();
                     return false;
@@ -1168,7 +1150,62 @@ const ans_array = [ans_1,ans_2,ans_3,ans_4,ans_5,ans_6,ans_7,ans_8,ans_9,ans_10,
                 function game_hint() {
                         audio_hint.play();
                         input.value = ans_array[0];
+                        table_on();
                 };
+    //Таблица
+    function table_on(){
+        if (t_array[0] == 1) {
+            group_2.classList.add("game_display_none");
+            group_3.classList.add("game_display_none");
+            group_4.classList.add("game_display_none");
+            group_5.classList.add("game_display_none");
+            group_6.classList.add("game_display_none");
+        }
+        else if (t_array[0] == 2) {
+            group_1.classList.add("game_display_none");
+            group_3.classList.add("game_display_none");
+            group_4.classList.add("game_display_none");
+            group_5.classList.add("game_display_none");
+            group_6.classList.add("game_display_none");
+        }
+        else if (t_array[0] == 3) {
+            group_1.classList.add("game_display_none");
+            group_2.classList.add("game_display_none");
+            group_4.classList.add("game_display_none");
+            group_5.classList.add("game_display_none");
+            group_6.classList.add("game_display_none");
+        }
+        else if (t_array[0] == 4) {
+            group_1.classList.add("game_display_none");
+            group_2.classList.add("game_display_none");
+            group_3.classList.add("game_display_none");
+            group_5.classList.add("game_display_none");
+            group_6.classList.add("game_display_none");
+        }
+        else if (t_array[0] == 5) {
+            group_1.classList.add("game_display_none");
+            group_2.classList.add("game_display_none");
+            group_3.classList.add("game_display_none");
+            group_4.classList.add("game_display_none");
+            group_6.classList.add("game_display_none");
+        }
+        else {
+            group_1.classList.add("game_display_none");
+            group_2.classList.add("game_display_none");
+            group_3.classList.add("game_display_none");
+            group_4.classList.add("game_display_none");
+            group_5.classList.add("game_display_none");
+        }
+    };
+    //Таблица-сброс
+    function table_off(){
+        group_1.classList.remove("game_display_none");
+        group_2.classList.remove("game_display_none");
+        group_3.classList.remove("game_display_none");
+        group_4.classList.remove("game_display_none");
+        group_5.classList.remove("game_display_none");
+        group_6.classList.remove("game_display_none");
+    };
     //Конец Игры
     function game_over(){
             document.getElementById('question_text').innerHTML = "Конец!";
@@ -1185,6 +1222,8 @@ const ans_array = [ans_1,ans_2,ans_3,ans_4,ans_5,ans_6,ans_7,ans_8,ans_9,ans_10,
             audio_great.play();
             ans_array.shift();
             qw_array.shift();
+            t_array.shift();
+            table_off();
             score -= 1;
             block_button.setAttribute("onclick", "game_hint()");
             document.getElementById("input_verb").value = "";
