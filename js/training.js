@@ -1151,6 +1151,7 @@ const t_array = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
                         audio_hint.play();
                         input.value = ans_array[0];
                         table_on();
+                        illum();
                 };
     //Таблица
     function table_on(){
@@ -1217,6 +1218,7 @@ const t_array = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
             game_over();
             score -= 1;
             document.getElementById('score').innerHTML = score;
+            illum_off();
         }
         else if (ans_array[0].includes(input.value.toLowerCase()) == true && input.value.length > 3) {
             audio_great.play();
@@ -1229,9 +1231,40 @@ const t_array = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
             document.getElementById("input_verb").value = "";
             document.getElementById('question_text').innerHTML = qw_array[0];
             document.getElementById('score').innerHTML = score;
+            illum_off();
         }
         else {
             audio_bad.play();
             document.getElementById('question_text').innerHTML = "Подумайте ещё... " + qw_array[0];
         }
     };
+
+    //ВЫДЕЛЕНИЕ СТРОК ТАБЛИЦЫ
+    const table_verbs = document.getElementById('table_verbs');
+    let tr = table_verbs.getElementsByTagName("tr");
+
+    function illum(){
+    //Вырезание слова из подсказки
+    let spl = qw_array[0].split("(");
+    let last_und = spl[spl.length - 1];
+    let last = last_und.slice(0,-1);
+
+    //Объекты всех строк таблицы
+    for (i = 0; i < tr.length; i++) {
+        const tableData = tr[i].getElementsByTagName("td");
+        let allTextContent = '';
+        for (let ind = 0; ind < tableData.length; ind++) {
+            allTextContent += tableData[ind].innerText;
+        }
+        if (allTextContent) {
+          if (allTextContent.toLowerCase().indexOf(last) > -1) {
+            tr[i].style.backgroundColor = "#ffc107";
+          }
+        }
+      }
+  }
+  function illum_off(){
+  for (i = 0; i < tr.length; i++) {
+        tr[i].style.backgroundColor = "inherit";
+}
+}
