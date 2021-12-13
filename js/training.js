@@ -1234,12 +1234,15 @@ const t_array = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
             document.getElementById('question_text').innerHTML = qw_array[0];
             document.getElementById('score').innerHTML = score;
             illum_off();
+            alert(access);
         }
         else {
             audio_bad.play();
             document.getElementById('question_text').innerHTML = "Подумайте ещё... " + qw_array[0];
         }
     };
+
+    //ПОИСК
 
     //ВЫДЕЛЕНИЕ СТРОК ТАБЛИЦЫ
     const table_verbs = document.getElementById('table_verbs');
@@ -1269,6 +1272,9 @@ const t_array = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
             tr[i].style.backgroundColor = "#inherit";
           }
           else if (allTextContent.toLowerCase().indexOf("υ" + last) > -1) {
+            tr[i].style.backgroundColor = "#inherit";
+          }
+          else if (allTextContent.toLowerCase().indexOf("ε" + last) > -1) {
             tr[i].style.backgroundColor = "#inherit";
           }
           else if (allTextContent.toLowerCase().indexOf(last) > -1) {
