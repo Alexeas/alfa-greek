@@ -832,9 +832,9 @@ const ans_294 = "εξέλεξαν, εκλέξανε";
 const ans_295 = "εξέφρασα";
 const ans_296 = "εξέφρασες";
 const ans_297 = "εξέφρασε";
-const ans_298 = "εξεφράσαμε";
-const ans_299 = "εξεφράσατε";
-const ans_300 = "εξέφρασαν, εξεφράσανε";
+const ans_298 = "εκφράσαμε";
+const ans_299 = "εκφράσατε";
+const ans_300 = "εξέφρασαν, εκφράσανε";
 const ans_301 = "έλπισα, ήλπισα";
 const ans_302 = "έλπισες, ήλπισες";
 const ans_303 = "έλπισε, ήλπισε";
@@ -1263,6 +1263,12 @@ const t_array = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
             tr[i].style.backgroundColor = "#inherit";
           }
           else if (allTextContent.toLowerCase().indexOf("α" + last) > -1) {
+            tr[i].style.backgroundColor = "#inherit";
+          }
+          else if (allTextContent.toLowerCase().indexOf("ο" + last) > -1) {
+            tr[i].style.backgroundColor = "#inherit";
+          }
+          else if (allTextContent.toLowerCase().indexOf("υ" + last) > -1) {
             tr[i].style.backgroundColor = "#inherit";
           }
           else if (allTextContent.toLowerCase().indexOf(last) > -1) {
